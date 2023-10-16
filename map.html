@@ -1,0 +1,3282 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_79fd5d4cfe4b2672ed9b9dd34498b108 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_79fd5d4cfe4b2672ed9b9dd34498b108" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_79fd5d4cfe4b2672ed9b9dd34498b108 = L.map(
+                "map_79fd5d4cfe4b2672ed9b9dd34498b108",
+                {
+                    center: [37.4931821, 127.0567047],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5039b7c4cad8a5d9d49b25dabded6c55 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+            var circle_b6d096c2088c07951871360969e881d7 = L.circle(
+                [37.4931821, 127.0567047],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_1d7d81fbca84f40f94ae5bf885ff19d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_965fea972caf0af460ed31e5c322a37e = $(`<div id="html_965fea972caf0af460ed31e5c322a37e" style="width: 100.0%; height: 100.0%;">대치동<br>1제곱킬로미터당 학원 수: 1.0<br>제곱미터당 가격(만원): 0.5962764374825342</div>`)[0];
+                popup_1d7d81fbca84f40f94ae5bf885ff19d5.setContent(html_965fea972caf0af460ed31e5c322a37e);
+            
+        
+
+        circle_b6d096c2088c07951871360969e881d7.bindPopup(popup_1d7d81fbca84f40f94ae5bf885ff19d5)
+        ;
+
+        
+    
+    
+            var circle_9cca827e0590755fac2ebbf5eb7e7bea = L.circle(
+                [37.5303777, 126.8712323],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.36979166666666674, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_1502c6bfef817815096e31a8cff383d3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f10027b7bb9546b3946b3c0ab888e03 = $(`<div id="html_5f10027b7bb9546b3946b3c0ab888e03" style="width: 100.0%; height: 100.0%;">목동<br>1제곱킬로미터당 학원 수: 0.36979166666666674<br>제곱미터당 가격(만원): 0.37354284925186765</div>`)[0];
+                popup_1502c6bfef817815096e31a8cff383d3.setContent(html_5f10027b7bb9546b3946b3c0ab888e03);
+            
+        
+
+        circle_9cca827e0590755fac2ebbf5eb7e7bea.bindPopup(popup_1502c6bfef817815096e31a8cff383d3)
+        ;
+
+        
+    
+    
+            var circle_c47224f98e8081c85f40292e9c959f3f = L.circle(
+                [37.543392, 126.930513],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.27604166666666674, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_db8079b5d40c4401e862b8250568f461 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf885d99ec7732a3bcd09f523d911140 = $(`<div id="html_bf885d99ec7732a3bcd09f523d911140" style="width: 100.0%; height: 100.0%;">신정동<br>1제곱킬로미터당 학원 수: 0.27604166666666674<br>제곱미터당 가격(만원): 0.3202945252141737</div>`)[0];
+                popup_db8079b5d40c4401e862b8250568f461.setContent(html_bf885d99ec7732a3bcd09f523d911140);
+            
+        
+
+        circle_c47224f98e8081c85f40292e9c959f3f.bindPopup(popup_db8079b5d40c4401e862b8250568f461)
+        ;
+
+        
+    
+    
+            var circle_988d8d837c152b9263bfeb156f7a306d = L.circle(
+                [37.6525986, 127.0775275],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1041666666666667, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_9b0226a9b8f6ce5afc6371aa02e27162 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9ba82644fb5184f3e7c1dac9af830cd = $(`<div id="html_b9ba82644fb5184f3e7c1dac9af830cd" style="width: 100.0%; height: 100.0%;">중계동<br>1제곱킬로미터당 학원 수: 0.1041666666666667<br>제곱미터당 가격(만원): 0.21632466417342683</div>`)[0];
+                popup_9b0226a9b8f6ce5afc6371aa02e27162.setContent(html_b9ba82644fb5184f3e7c1dac9af830cd);
+            
+        
+
+        circle_988d8d837c152b9263bfeb156f7a306d.bindPopup(popup_9b0226a9b8f6ce5afc6371aa02e27162)
+        ;
+
+        
+    
+    
+            var circle_cc8178b0976e85270549c87911730128 = L.circle(
+                [37.5021441, 126.9868224],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.15104166666666669, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_d6cd99dd94929d9a99ae961a8fbc62ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2e98f1878032919dfd2180275acb543 = $(`<div id="html_c2e98f1878032919dfd2180275acb543" style="width: 100.0%; height: 100.0%;">반포동<br>1제곱킬로미터당 학원 수: 0.15104166666666669<br>제곱미터당 가격(만원): 1.0</div>`)[0];
+                popup_d6cd99dd94929d9a99ae961a8fbc62ce.setContent(html_c2e98f1878032919dfd2180275acb543);
+            
+        
+
+        circle_cc8178b0976e85270549c87911730128.bindPopup(popup_d6cd99dd94929d9a99ae961a8fbc62ce)
+        ;
+
+        
+    
+    
+            var circle_d7db6d042c720dd1cbb12c156fa43e53 = L.circle(
+                [37.4901186, 127.0195082],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.11458333333333336, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_ba3a64121e9f9986701afaac36aac73d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a90c5ddd79a4b1c89aab4651a75a5985 = $(`<div id="html_a90c5ddd79a4b1c89aab4651a75a5985" style="width: 100.0%; height: 100.0%;">서초동<br>1제곱킬로미터당 학원 수: 0.11458333333333336<br>제곱미터당 가격(만원): 0.36596687321578303</div>`)[0];
+                popup_ba3a64121e9f9986701afaac36aac73d.setContent(html_a90c5ddd79a4b1c89aab4651a75a5985);
+            
+        
+
+        circle_d7db6d042c720dd1cbb12c156fa43e53.bindPopup(popup_ba3a64121e9f9986701afaac36aac73d)
+        ;
+
+        
+    
+    
+            var circle_c5b57804b6e44111973d048dea966a77 = L.circle(
+                [37.4779619, 126.9534602],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.04166666666666667, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_e391d209ec9cd0ed5bf6cf0482d11d39 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_90f31beed80e9e9b0bdf24bfc8bdc323 = $(`<div id="html_90f31beed80e9e9b0bdf24bfc8bdc323" style="width: 100.0%; height: 100.0%;">봉천동<br>1제곱킬로미터당 학원 수: 0.04166666666666667<br>제곱미터당 가격(만원): 0.1971495443952338</div>`)[0];
+                popup_e391d209ec9cd0ed5bf6cf0482d11d39.setContent(html_90f31beed80e9e9b0bdf24bfc8bdc323);
+            
+        
+
+        circle_c5b57804b6e44111973d048dea966a77.bindPopup(popup_e391d209ec9cd0ed5bf6cf0482d11d39)
+        ;
+
+        
+    
+    
+            var circle_128ad0636f91bf54c37d0683e4dde439 = L.circle(
+                [37.6799006, 127.0549781],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.026041666666666675, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_8f1bcf861a3f40ea60fc58b12941b2ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f25998cd3315fbfafee1de0682f375c = $(`<div id="html_5f25998cd3315fbfafee1de0682f375c" style="width: 100.0%; height: 100.0%;">상계동<br>1제곱킬로미터당 학원 수: 0.026041666666666675<br>제곱미터당 가격(만원): 0.20136523370296527</div>`)[0];
+                popup_8f1bcf861a3f40ea60fc58b12941b2ad.setContent(html_5f25998cd3315fbfafee1de0682f375c);
+            
+        
+
+        circle_128ad0636f91bf54c37d0683e4dde439.bindPopup(popup_8f1bcf861a3f40ea60fc58b12941b2ad)
+        ;
+
+        
+    
+    
+            var circle_14493a267ae4f29c3f2ecfde3904470c = L.circle(
+                [37.544075, 126.847725],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.05208333333333334, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_95badfdf7c2f42b0e5a6218e4bead6f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1dfcc70293a2e5632edb0c92bf74a111 = $(`<div id="html_1dfcc70293a2e5632edb0c92bf74a111" style="width: 100.0%; height: 100.0%;">화곡동<br>1제곱킬로미터당 학원 수: 0.05208333333333334<br>제곱미터당 가격(만원): 0.12150299212512494</div>`)[0];
+                popup_95badfdf7c2f42b0e5a6218e4bead6f7.setContent(html_1dfcc70293a2e5632edb0c92bf74a111);
+            
+        
+
+        circle_14493a267ae4f29c3f2ecfde3904470c.bindPopup(popup_95badfdf7c2f42b0e5a6218e4bead6f7)
+        ;
+
+        
+    
+    
+            var circle_6378ed97a26e301e78458b4c9ac59434 = L.circle(
+                [37.510933, 127.123925],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.14583333333333334, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_6f753e719802a639008e2e61e5f1796d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_231d7736bce83c8038180fa55bccdc23 = $(`<div id="html_231d7736bce83c8038180fa55bccdc23" style="width: 100.0%; height: 100.0%;">방이동<br>1제곱킬로미터당 학원 수: 0.14583333333333334<br>제곱미터당 가격(만원): 0.35204290845867436</div>`)[0];
+                popup_6f753e719802a639008e2e61e5f1796d.setContent(html_231d7736bce83c8038180fa55bccdc23);
+            
+        
+
+        circle_6378ed97a26e301e78458b4c9ac59434.bindPopup(popup_6f753e719802a639008e2e61e5f1796d)
+        ;
+
+        
+    
+    
+            var circle_f8586711f5251f24c0920bd42641ac4d = L.circle(
+                [37.4941452, 126.988785],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.05208333333333334, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_b399bc295c2311ca6f0a921a5cea5a22 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_504acedcf36e5902ca627169e572a08f = $(`<div id="html_504acedcf36e5902ca627169e572a08f" style="width: 100.0%; height: 100.0%;">방배동<br>1제곱킬로미터당 학원 수: 0.05208333333333334<br>제곱미터당 가격(만원): 0.37941662994998804</div>`)[0];
+                popup_b399bc295c2311ca6f0a921a5cea5a22.setContent(html_504acedcf36e5902ca627169e572a08f);
+            
+        
+
+        circle_f8586711f5251f24c0920bd42641ac4d.bindPopup(popup_b399bc295c2311ca6f0a921a5cea5a22)
+        ;
+
+        
+    
+    
+            var circle_2171e96915a594b8523cea104ee6b864 = L.circle(
+                [37.4954841, 127.0333574],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.07291666666666669, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_8b69a37368c0b664b32b105a44d760bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f5a0eeec83e0beee558c213eaca02af = $(`<div id="html_6f5a0eeec83e0beee558c213eaca02af" style="width: 100.0%; height: 100.0%;">역삼동<br>1제곱킬로미터당 학원 수: 0.07291666666666669<br>제곱미터당 가격(만원): 0.47954190836179567</div>`)[0];
+                popup_8b69a37368c0b664b32b105a44d760bf.setContent(html_6f5a0eeec83e0beee558c213eaca02af);
+            
+        
+
+        circle_2171e96915a594b8523cea104ee6b864.bindPopup(popup_8b69a37368c0b664b32b105a44d760bf)
+        ;
+
+        
+    
+    
+            var circle_73a79b3eaede11eadce235009df34e95 = L.circle(
+                [37.5240101, 127.0227814],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.19270833333333337, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_efd336f194f47bfed28143c0dbf97b28 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dfc8995b74392c76fcaa09e8da5bc745 = $(`<div id="html_dfc8995b74392c76fcaa09e8da5bc745" style="width: 100.0%; height: 100.0%;">신사동<br>1제곱킬로미터당 학원 수: 0.19270833333333337<br>제곱미터당 가격(만원): 0.24759791871028664</div>`)[0];
+                popup_efd336f194f47bfed28143c0dbf97b28.setContent(html_dfc8995b74392c76fcaa09e8da5bc745);
+            
+        
+
+        circle_73a79b3eaede11eadce235009df34e95.bindPopup(popup_efd336f194f47bfed28143c0dbf97b28)
+        ;
+
+        
+    
+    
+            var circle_9cf76837bf97c4bd62c556b22d39182a = L.circle(
+                [37.5060716, 127.0832037],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.06770833333333334, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_e05d87b85a65175c8a9f3d4f931c348b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4d3c47b77915dd753328a0bb91ab571 = $(`<div id="html_f4d3c47b77915dd753328a0bb91ab571" style="width: 100.0%; height: 100.0%;">잠실동<br>1제곱킬로미터당 학원 수: 0.06770833333333334<br>제곱미터당 가격(만원): 0.685141721578446</div>`)[0];
+                popup_e05d87b85a65175c8a9f3d4f931c348b.setContent(html_f4d3c47b77915dd753328a0bb91ab571);
+            
+        
+
+        circle_9cf76837bf97c4bd62c556b22d39182a.bindPopup(popup_e05d87b85a65175c8a9f3d4f931c348b)
+        ;
+
+        
+    
+    
+            var circle_b2e04e619376f1c5f78f2f8d7d4fbce8 = L.circle(
+                [37.5149619, 127.0140771],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.125, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_46a67cefd1fdbde3743837bd8a29d374 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad018bef584a6c9d4d78a36791611009 = $(`<div id="html_ad018bef584a6c9d4d78a36791611009" style="width: 100.0%; height: 100.0%;">잠원동<br>1제곱킬로미터당 학원 수: 0.125<br>제곱미터당 가격(만원): 0.8197844266351422</div>`)[0];
+                popup_46a67cefd1fdbde3743837bd8a29d374.setContent(html_ad018bef584a6c9d4d78a36791611009);
+            
+        
+
+        circle_b2e04e619376f1c5f78f2f8d7d4fbce8.bindPopup(popup_46a67cefd1fdbde3743837bd8a29d374)
+        ;
+
+        
+    
+    
+            var circle_55d72d79a2deecc41abf2515e7fe06a8 = L.circle(
+                [37.530642, 127.030713],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.734375, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_e6eadace9750bfd7262bd3d01df85c96 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eec753ae77cb6197e5db2c9c38b7907f = $(`<div id="html_eec753ae77cb6197e5db2c9c38b7907f" style="width: 100.0%; height: 100.0%;">압구정동<br>1제곱킬로미터당 학원 수: 0.734375<br>제곱미터당 가격(만원): 0.9940866822809173</div>`)[0];
+                popup_e6eadace9750bfd7262bd3d01df85c96.setContent(html_eec753ae77cb6197e5db2c9c38b7907f);
+            
+        
+
+        circle_55d72d79a2deecc41abf2515e7fe06a8.bindPopup(popup_e6eadace9750bfd7262bd3d01df85c96)
+        ;
+
+        
+    
+    
+            var circle_123268618963637383c82203ac3e2e34 = L.circle(
+                [37.6270736, 127.0269791],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.026041666666666675, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_2e116135d6481fcb94b6c371f1b6eeea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f956219db24cfdcbb46a28310e1f5088 = $(`<div id="html_f956219db24cfdcbb46a28310e1f5088" style="width: 100.0%; height: 100.0%;">미아동<br>1제곱킬로미터당 학원 수: 0.026041666666666675<br>제곱미터당 가격(만원): 0.16288769061412567</div>`)[0];
+                popup_2e116135d6481fcb94b6c371f1b6eeea.setContent(html_f956219db24cfdcbb46a28310e1f5088);
+            
+        
+
+        circle_123268618963637383c82203ac3e2e34.bindPopup(popup_2e116135d6481fcb94b6c371f1b6eeea)
+        ;
+
+        
+    
+    
+            var circle_3c3eaccad041ab18b37ef49f48fe2db5 = L.circle(
+                [37.5424917, 127.0856756],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.11458333333333336, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_12a44161d2f80e7e5ddfa0dcaee69b5e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c6c91e2f11f237d38a50933f0e05fd16 = $(`<div id="html_c6c91e2f11f237d38a50933f0e05fd16" style="width: 100.0%; height: 100.0%;">구의동<br>1제곱킬로미터당 학원 수: 0.11458333333333336<br>제곱미터당 가격(만원): 0.33573778281110467</div>`)[0];
+                popup_12a44161d2f80e7e5ddfa0dcaee69b5e.setContent(html_c6c91e2f11f237d38a50933f0e05fd16);
+            
+        
+
+        circle_3c3eaccad041ab18b37ef49f48fe2db5.bindPopup(popup_12a44161d2f80e7e5ddfa0dcaee69b5e)
+        ;
+
+        
+    
+    
+            var circle_1d0bd2cabe912d6d4ffd332e1a088faa = L.circle(
+                [37.487426, 126.927075],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.036458333333333336, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_ab1d77882f579d1dfe335284c81d766e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dcf593b64dd5ec9dfa98ee0ab289bead = $(`<div id="html_dcf593b64dd5ec9dfa98ee0ab289bead" style="width: 100.0%; height: 100.0%;">신림동<br>1제곱킬로미터당 학원 수: 0.036458333333333336<br>제곱미터당 가격(만원): 0.17066829124606947</div>`)[0];
+                popup_ab1d77882f579d1dfe335284c81d766e.setContent(html_dcf593b64dd5ec9dfa98ee0ab289bead);
+            
+        
+
+        circle_1d0bd2cabe912d6d4ffd332e1a088faa.bindPopup(popup_ab1d77882f579d1dfe335284c81d766e)
+        ;
+
+        
+    
+    
+            var circle_7f9528cdbe1e065c13962bb8ee04fe91 = L.circle(
+                [37.5535, 126.8354],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.2291666666666667, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_a1587ae4734f27a96da17db90f25f7b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b3ef1b720a54df93372613c6302a65f = $(`<div id="html_1b3ef1b720a54df93372613c6302a65f" style="width: 100.0%; height: 100.0%;">내발산동<br>1제곱킬로미터당 학원 수: 0.2291666666666667<br>제곱미터당 가격(만원): 0.19029868051851678</div>`)[0];
+                popup_a1587ae4734f27a96da17db90f25f7b2.setContent(html_1b3ef1b720a54df93372613c6302a65f);
+            
+        
+
+        circle_7f9528cdbe1e065c13962bb8ee04fe91.bindPopup(popup_a1587ae4734f27a96da17db90f25f7b2)
+        ;
+
+        
+    
+    
+            var circle_e35a70ef617f00828c4961aba59157ec = L.circle(
+                [37.5558155, 126.8589287],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.09895833333333336, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_ad6b0b8e1ee4a1349954604f2840f888 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd69685e9bc0f4e8edc57c15057b8f25 = $(`<div id="html_bd69685e9bc0f4e8edc57c15057b8f25" style="width: 100.0%; height: 100.0%;">등촌동<br>1제곱킬로미터당 학원 수: 0.09895833333333336<br>제곱미터당 가격(만원): 0.22549864532133157</div>`)[0];
+                popup_ad6b0b8e1ee4a1349954604f2840f888.setContent(html_bd69685e9bc0f4e8edc57c15057b8f25);
+            
+        
+
+        circle_e35a70ef617f00828c4961aba59157ec.bindPopup(popup_ad6b0b8e1ee4a1349954604f2840f888)
+        ;
+
+        
+    
+    
+            var circle_d8647a55d4eb68c07cc1ea24a2fdce70 = L.circle(
+                [37.4785, 127.1354],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.18229166666666669, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_1889eb0cd2f3792f91c130ebaf7a3e7d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_709b42f91a82f64c0f730dcbf3d097bb = $(`<div id="html_709b42f91a82f64c0f730dcbf3d097bb" style="width: 100.0%; height: 100.0%;">장지동<br>1제곱킬로미터당 학원 수: 0.18229166666666669<br>제곱미터당 가격(만원): 0.42421500658148925</div>`)[0];
+                popup_1889eb0cd2f3792f91c130ebaf7a3e7d.setContent(html_709b42f91a82f64c0f730dcbf3d097bb);
+            
+        
+
+        circle_d8647a55d4eb68c07cc1ea24a2fdce70.bindPopup(popup_1889eb0cd2f3792f91c130ebaf7a3e7d)
+        ;
+
+        
+    
+    
+            var circle_db5c89d5cf421565300e3874ba30f232 = L.circle(
+                [37.6483046, 127.0438683],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.05729166666666668, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_316ba277d61eeec5e2c23f6252e50e32 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d126c00fee04bd5b1403f5edc0696258 = $(`<div id="html_d126c00fee04bd5b1403f5edc0696258" style="width: 100.0%; height: 100.0%;">창동<br>1제곱킬로미터당 학원 수: 0.05729166666666668<br>제곱미터당 가격(만원): 0.1903152242337997</div>`)[0];
+                popup_316ba277d61eeec5e2c23f6252e50e32.setContent(html_d126c00fee04bd5b1403f5edc0696258);
+            
+        
+
+        circle_db5c89d5cf421565300e3874ba30f232.bindPopup(popup_316ba277d61eeec5e2c23f6252e50e32)
+        ;
+
+        
+    
+    
+            var circle_20d1291e4c942144ccc0289ca154b1b9 = L.circle(
+                [37.532808, 126.831487],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.036458333333333336, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_3fffe52d30317ccd2b89a672bcc22752 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_98631666c89a46f890d229457ce7fbe2 = $(`<div id="html_98631666c89a46f890d229457ce7fbe2" style="width: 100.0%; height: 100.0%;">신월동<br>1제곱킬로미터당 학원 수: 0.036458333333333336<br>제곱미터당 가격(만원): 0.1485600707790133</div>`)[0];
+                popup_3fffe52d30317ccd2b89a672bcc22752.setContent(html_98631666c89a46f890d229457ce7fbe2);
+            
+        
+
+        circle_20d1291e4c942144ccc0289ca154b1b9.bindPopup(popup_3fffe52d30317ccd2b89a672bcc22752)
+        ;
+
+        
+    
+    
+            var circle_b2c3d45d5db84a74b6277d759d0e9448 = L.circle(
+                [37.6104856, 127.0193925],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.18229166666666669, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_77ea85d8e1552c0a0d2fbebc0fc085b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4428f79605a4b36b6d38522c99b33bb = $(`<div id="html_f4428f79605a4b36b6d38522c99b33bb" style="width: 100.0%; height: 100.0%;">길음동<br>1제곱킬로미터당 학원 수: 0.18229166666666669<br>제곱미터당 가격(만원): 0.26172465693371016</div>`)[0];
+                popup_77ea85d8e1552c0a0d2fbebc0fc085b2.setContent(html_f4428f79605a4b36b6d38522c99b33bb);
+            
+        
+
+        circle_b2c3d45d5db84a74b6277d759d0e9448.bindPopup(popup_77ea85d8e1552c0a0d2fbebc0fc085b2)
+        ;
+
+        
+    
+    
+            var circle_fe7455852cbe145aafc1302c03b6bd73 = L.circle(
+                [37.5112667, 126.9214285],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.03125, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_b2843421e612ff96bb71e34838ab4611 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5dfa99214b9acb3dc428d256380655d0 = $(`<div id="html_5dfa99214b9acb3dc428d256380655d0" style="width: 100.0%; height: 100.0%;">신길동<br>1제곱킬로미터당 학원 수: 0.03125<br>제곱미터당 가격(만원): 0.29142800825545534</div>`)[0];
+                popup_b2843421e612ff96bb71e34838ab4611.setContent(html_5dfa99214b9acb3dc428d256380655d0);
+            
+        
+
+        circle_fe7455852cbe145aafc1302c03b6bd73.bindPopup(popup_b2843421e612ff96bb71e34838ab4611)
+        ;
+
+        
+    
+    
+            var circle_3ead6609a760d7cf518f42aef5a51d0a = L.circle(
+                [37.4827409, 127.055737],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.03125, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_3d3bd52d3b9bf3df5352cf1abc89cabb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_39ca4c99b78af87b48c9e1ff431053a2 = $(`<div id="html_39ca4c99b78af87b48c9e1ff431053a2" style="width: 100.0%; height: 100.0%;">개포동<br>1제곱킬로미터당 학원 수: 0.03125<br>제곱미터당 가격(만원): 0.7816211414987011</div>`)[0];
+                popup_3d3bd52d3b9bf3df5352cf1abc89cabb.setContent(html_39ca4c99b78af87b48c9e1ff431053a2);
+            
+        
+
+        circle_3ead6609a760d7cf518f42aef5a51d0a.bindPopup(popup_3d3bd52d3b9bf3df5352cf1abc89cabb)
+        ;
+
+        
+    
+    
+            var circle_090eace376301ba8871b21c95267fd9f = L.circle(
+                [37.4955568, 127.1217864],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.0625, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_0a428d5b9ca7b962f27dbadd7d2a56b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c440c8138b4eb4682d9d29f24dea7a86 = $(`<div id="html_c440c8138b4eb4682d9d29f24dea7a86" style="width: 100.0%; height: 100.0%;">가락동<br>1제곱킬로미터당 학원 수: 0.0625<br>제곱미터당 가격(만원): 0.44250890912765084</div>`)[0];
+                popup_0a428d5b9ca7b962f27dbadd7d2a56b9.setContent(html_c440c8138b4eb4682d9d29f24dea7a86);
+            
+        
+
+        circle_090eace376301ba8871b21c95267fd9f.bindPopup(popup_0a428d5b9ca7b962f27dbadd7d2a56b9)
+        ;
+
+        
+    
+    
+            var circle_60b0c96910c2a6f5c052d439369baad4 = L.circle(
+                [37.634983, 126.9210512],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.35416666666666674, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_70089ff35cfdaeada5ace03ab3f63d47 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0bb452a1def72842e85c6c807c7267a5 = $(`<div id="html_0bb452a1def72842e85c6c807c7267a5" style="width: 100.0%; height: 100.0%;">진관동<br>1제곱킬로미터당 학원 수: 0.35416666666666674<br>제곱미터당 가격(만원): 0.20054049798800738</div>`)[0];
+                popup_70089ff35cfdaeada5ace03ab3f63d47.setContent(html_0bb452a1def72842e85c6c807c7267a5);
+            
+        
+
+        circle_60b0c96910c2a6f5c052d439369baad4.bindPopup(popup_70089ff35cfdaeada5ace03ab3f63d47)
+        ;
+
+        
+    
+    
+            var circle_1692633c0e9afb4d882d7cca4a3c8e66 = L.circle(
+                [37.5144424, 127.062532],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.05729166666666668, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_fd19df940b48a5b4eca49cef69f2abcb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a066235876d1ba87d7e7ffa85f19132b = $(`<div id="html_a066235876d1ba87d7e7ffa85f19132b" style="width: 100.0%; height: 100.0%;">삼성동<br>1제곱킬로미터당 학원 수: 0.05729166666666668<br>제곱미터당 가격(만원): 0.5810327435475269</div>`)[0];
+                popup_fd19df940b48a5b4eca49cef69f2abcb.setContent(html_a066235876d1ba87d7e7ffa85f19132b);
+            
+        
+
+        circle_1692633c0e9afb4d882d7cca4a3c8e66.bindPopup(popup_fd19df940b48a5b4eca49cef69f2abcb)
+        ;
+
+        
+    
+    
+            var circle_d30bc1065df520cf46a123732f19928e = L.circle(
+                [37.5422119, 126.9426766],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.35416666666666674, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_cd5559758840d13631e39dd16cc500ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4e684de9b96fdc3063b5960d130953f = $(`<div id="html_e4e684de9b96fdc3063b5960d130953f" style="width: 100.0%; height: 100.0%;">용강동<br>1제곱킬로미터당 학원 수: 0.35416666666666674<br>제곱미터당 가격(만원): 0.5246465536565947</div>`)[0];
+                popup_cd5559758840d13631e39dd16cc500ad.setContent(html_e4e684de9b96fdc3063b5960d130953f);
+            
+        
+
+        circle_d30bc1065df520cf46a123732f19928e.bindPopup(popup_cd5559758840d13631e39dd16cc500ad)
+        ;
+
+        
+    
+    
+            var circle_bdca933de8d7794561701f983fd2812c = L.circle(
+                [37.4535411, 126.9032625],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.10937500000000003, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_8f4f23c76e65a0937e68fd4b6ef86c96 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e97ea96819dd184fa93e855eedf971b = $(`<div id="html_6e97ea96819dd184fa93e855eedf971b" style="width: 100.0%; height: 100.0%;">시흥동<br>1제곱킬로미터당 학원 수: 0.10937500000000003<br>제곱미터당 가격(만원): 0.12504855938939013</div>`)[0];
+                popup_8f4f23c76e65a0937e68fd4b6ef86c96.setContent(html_6e97ea96819dd184fa93e855eedf971b);
+            
+        
+
+        circle_bdca933de8d7794561701f983fd2812c.bindPopup(popup_8f4f23c76e65a0937e68fd4b6ef86c96)
+        ;
+
+        
+    
+    
+            var circle_fbbfe80dd51e43115ec649d25e24c8b8 = L.circle(
+                [37.534508, 127.082438],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.03125, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_439f447f19e523d0200dfdf7a96ac1f3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0dc43e429370b738719efe47dcc4f6b8 = $(`<div id="html_0dc43e429370b738719efe47dcc4f6b8" style="width: 100.0%; height: 100.0%;">자양동<br>1제곱킬로미터당 학원 수: 0.03125<br>제곱미터당 가격(만원): 0.33535633950725663</div>`)[0];
+                popup_439f447f19e523d0200dfdf7a96ac1f3.setContent(html_0dc43e429370b738719efe47dcc4f6b8);
+            
+        
+
+        circle_fbbfe80dd51e43115ec649d25e24c8b8.bindPopup(popup_439f447f19e523d0200dfdf7a96ac1f3)
+        ;
+
+        
+    
+    
+            var circle_9f626ad5a04774d20e275f8db4c7926f = L.circle(
+                [37.5989056, 126.9471111],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.09375000000000003, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_e6136faf727f8a425890e7a361b62fb6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d9f72f48b02328339282a5d231cff43 = $(`<div id="html_3d9f72f48b02328339282a5d231cff43" style="width: 100.0%; height: 100.0%;">홍은동<br>1제곱킬로미터당 학원 수: 0.09375000000000003<br>제곱미터당 가격(만원): 0.12838817645649264</div>`)[0];
+                popup_e6136faf727f8a425890e7a361b62fb6.setContent(html_3d9f72f48b02328339282a5d231cff43);
+            
+        
+
+        circle_9f626ad5a04774d20e275f8db4c7926f.bindPopup(popup_e6136faf727f8a425890e7a361b62fb6)
+        ;
+
+        
+    
+    
+            var circle_362518fd3cc5a6a9c256200aa3c6294e = L.circle(
+                [37.623707, 126.916675],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1041666666666667, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_daeea6da19e258293d18db99a86699c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9f94c0ba7b9d06ef97b48f165527c4f = $(`<div id="html_b9f94c0ba7b9d06ef97b48f165527c4f" style="width: 100.0%; height: 100.0%;">갈현동<br>1제곱킬로미터당 학원 수: 0.1041666666666667<br>제곱미터당 가격(만원): 0.0644880149031066</div>`)[0];
+                popup_daeea6da19e258293d18db99a86699c5.setContent(html_b9f94c0ba7b9d06ef97b48f165527c4f);
+            
+        
+
+        circle_362518fd3cc5a6a9c256200aa3c6294e.bindPopup(popup_daeea6da19e258293d18db99a86699c5)
+        ;
+
+        
+    
+    
+            var circle_b4d922c4bc74895502de6d33f1bb5e73 = L.circle(
+                [37.5520632, 126.9440276],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.020833333333333336, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_80292a17628244c10700708b61b50b98 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31fea8d4f75c4eb493d8107925ffb636 = $(`<div id="html_31fea8d4f75c4eb493d8107925ffb636" style="width: 100.0%; height: 100.0%;">대흥동<br>1제곱킬로미터당 학원 수: 0.020833333333333336<br>제곱미터당 가격(만원): 0.44105079269376746</div>`)[0];
+                popup_80292a17628244c10700708b61b50b98.setContent(html_31fea8d4f75c4eb493d8107925ffb636);
+            
+        
+
+        circle_b4d922c4bc74895502de6d33f1bb5e73.bindPopup(popup_80292a17628244c10700708b61b50b98)
+        ;
+
+        
+    
+    
+            var circle_638b1747bb319ee2189bf6e54e0257ea = L.circle(
+                [37.502714, 127.0925354],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.07291666666666669, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_f9ece4fc2504ea6cfd7cec5005515404 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09824ef0dcd351c2f6b0cf4ce17d1f67 = $(`<div id="html_09824ef0dcd351c2f6b0cf4ce17d1f67" style="width: 100.0%; height: 100.0%;">삼전동<br>1제곱킬로미터당 학원 수: 0.07291666666666669<br>제곱미터당 가격(만원): 0.06360874707232797</div>`)[0];
+                popup_f9ece4fc2504ea6cfd7cec5005515404.setContent(html_09824ef0dcd351c2f6b0cf4ce17d1f67);
+            
+        
+
+        circle_638b1747bb319ee2189bf6e54e0257ea.bindPopup(popup_f9ece4fc2504ea6cfd7cec5005515404)
+        ;
+
+        
+    
+    
+            var circle_7e3183743b4aeb36672fe4ba64537885 = L.circle(
+                [37.6480275, 127.0261145],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.036458333333333336, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_d29cbec2bed11d6315b46c7eea3a68f3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1760a44942f22438d36e909773838bd7 = $(`<div id="html_1760a44942f22438d36e909773838bd7" style="width: 100.0%; height: 100.0%;">쌍문동<br>1제곱킬로미터당 학원 수: 0.036458333333333336<br>제곱미터당 가격(만원): 0.10277291800686122</div>`)[0];
+                popup_d29cbec2bed11d6315b46c7eea3a68f3.setContent(html_1760a44942f22438d36e909773838bd7);
+            
+        
+
+        circle_7e3183743b4aeb36672fe4ba64537885.bindPopup(popup_d29cbec2bed11d6315b46c7eea3a68f3)
+        ;
+
+        
+    
+    
+            var circle_d9e5aa0f15086d5ed120ee983ff73123 = L.circle(
+                [37.5115706, 127.028461],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.06770833333333334, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_fc564076ac9e677b060007f12a5ee61e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4e820bda5c98d9daec504988c18da52 = $(`<div id="html_d4e820bda5c98d9daec504988c18da52" style="width: 100.0%; height: 100.0%;">논현동<br>1제곱킬로미터당 학원 수: 0.06770833333333334<br>제곱미터당 가격(만원): 0.37493066658477225</div>`)[0];
+                popup_fc564076ac9e677b060007f12a5ee61e.setContent(html_d4e820bda5c98d9daec504988c18da52);
+            
+        
+
+        circle_d9e5aa0f15086d5ed120ee983ff73123.bindPopup(popup_fc564076ac9e677b060007f12a5ee61e)
+        ;
+
+        
+    
+    
+            var circle_1d50aedaeb17b04d2f37b72d8a235798 = L.circle(
+                [37.5738, 126.8304],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.26041666666666674, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_7bfcafb7f2ca58a2fb259b5165b655a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a8da213b6c0bb9aee5d8fc8e8d7193e2 = $(`<div id="html_a8da213b6c0bb9aee5d8fc8e8d7193e2" style="width: 100.0%; height: 100.0%;">마곡동<br>1제곱킬로미터당 학원 수: 0.26041666666666674<br>제곱미터당 가격(만원): 0.3334466236115298</div>`)[0];
+                popup_7bfcafb7f2ca58a2fb259b5165b655a3.setContent(html_a8da213b6c0bb9aee5d8fc8e8d7193e2);
+            
+        
+
+        circle_1d50aedaeb17b04d2f37b72d8a235798.bindPopup(popup_7bfcafb7f2ca58a2fb259b5165b655a3)
+        ;
+
+        
+    
+    
+            var circle_6aa073fe37a156263aa053040e013796 = L.circle(
+                [37.6006884, 126.926813],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.036458333333333336, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_d555b3d33c992fd4455365665957afce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bae5daaea3227242475c81c7dc67a80c = $(`<div id="html_bae5daaea3227242475c81c7dc67a80c" style="width: 100.0%; height: 100.0%;">응암동<br>1제곱킬로미터당 학원 수: 0.036458333333333336<br>제곱미터당 가격(만원): 0.23098390543905495</div>`)[0];
+                popup_d555b3d33c992fd4455365665957afce.setContent(html_bae5daaea3227242475c81c7dc67a80c);
+            
+        
+
+        circle_6aa073fe37a156263aa053040e013796.bindPopup(popup_d555b3d33c992fd4455365665957afce)
+        ;
+
+        
+    
+    
+            var circle_988bc4f6b528010a0ae4e8a02308c49d = L.circle(
+                [37.605882, 127.099538],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.20312500000000003, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_cabc79637cf144c3c8a083f25bd95d45 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92843e027ba6f6da32039d32223d2450 = $(`<div id="html_92843e027ba6f6da32039d32223d2450" style="width: 100.0%; height: 100.0%;">신내동<br>1제곱킬로미터당 학원 수: 0.20312500000000003<br>제곱미터당 가격(만원): 0.1483124785461512</div>`)[0];
+                popup_cabc79637cf144c3c8a083f25bd95d45.setContent(html_92843e027ba6f6da32039d32223d2450);
+            
+        
+
+        circle_988bc4f6b528010a0ae4e8a02308c49d.bindPopup(popup_cabc79637cf144c3c8a083f25bd95d45)
+        ;
+
+        
+    
+    
+            var circle_0438a52045c178adc5be92d70014b1c4 = L.circle(
+                [37.5588296, 126.8101437],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.01041666666666667, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_75cca961310a30e52471a513d0b38631 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1baaef96388f604b4a03f85e6f319b28 = $(`<div id="html_1baaef96388f604b4a03f85e6f319b28" style="width: 100.0%; height: 100.0%;">공항동<br>1제곱킬로미터당 학원 수: 0.01041666666666667<br>제곱미터당 가격(만원): 0.20107599193006054</div>`)[0];
+                popup_75cca961310a30e52471a513d0b38631.setContent(html_1baaef96388f604b4a03f85e6f319b28);
+            
+        
+
+        circle_0438a52045c178adc5be92d70014b1c4.bindPopup(popup_75cca961310a30e52471a513d0b38631)
+        ;
+
+        
+    
+    
+            var circle_8fb88f662b56e0939b50ebe726082a7c = L.circle(
+                [37.560675, 127.080038],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.03125, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_2f873e00300d7d28a8d8f1b3631388e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cbe0a418f19e001b720513dc5c0f7e10 = $(`<div id="html_cbe0a418f19e001b720513dc5c0f7e10" style="width: 100.0%; height: 100.0%;">중곡동<br>1제곱킬로미터당 학원 수: 0.03125<br>제곱미터당 가격(만원): 0.12211774072613996</div>`)[0];
+                popup_2f873e00300d7d28a8d8f1b3631388e0.setContent(html_cbe0a418f19e001b720513dc5c0f7e10);
+            
+        
+
+        circle_8fb88f662b56e0939b50ebe726082a7c.bindPopup(popup_2f873e00300d7d28a8d8f1b3631388e0)
+        ;
+
+        
+    
+    
+            var circle_f1d46e801ecb5e26d7b9e682509fb1d6 = L.circle(
+                [37.6300865, 127.0176014],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.03125, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_85cf3a17630a36357b22eca09371a82c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14466ad32455da87b5115b3fa0bce4f6 = $(`<div id="html_14466ad32455da87b5115b3fa0bce4f6" style="width: 100.0%; height: 100.0%;">수유동<br>1제곱킬로미터당 학원 수: 0.03125<br>제곱미터당 가격(만원): 0.1499269531340584</div>`)[0];
+                popup_85cf3a17630a36357b22eca09371a82c.setContent(html_14466ad32455da87b5115b3fa0bce4f6);
+            
+        
+
+        circle_f1d46e801ecb5e26d7b9e682509fb1d6.bindPopup(popup_85cf3a17630a36357b22eca09371a82c)
+        ;
+
+        
+    
+    
+            var circle_a8ba2d965ab3fd6f4a376f03080d1f1b = L.circle(
+                [37.4930433, 126.8757585],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.026041666666666675, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_330ca5aaeea560f0c15c396264428171 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b8edede984fd3b4bc34ecaefe0b3711 = $(`<div id="html_0b8edede984fd3b4bc34ecaefe0b3711" style="width: 100.0%; height: 100.0%;">구로동<br>1제곱킬로미터당 학원 수: 0.026041666666666675<br>제곱미터당 가격(만원): 0.12312545811828451</div>`)[0];
+                popup_330ca5aaeea560f0c15c396264428171.setContent(html_0b8edede984fd3b4bc34ecaefe0b3711);
+            
+        
+
+        circle_a8ba2d965ab3fd6f4a376f03080d1f1b.bindPopup(popup_330ca5aaeea560f0c15c396264428171)
+        ;
+
+        
+    
+    
+            var circle_d66ed8e4e1bb74d908d5ccd344c76c27 = L.circle(
+                [37.57429, 126.910194],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.05729166666666668, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_34810984ddffe9fe62287176fe640e88 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8417acdcf7b47c4311973962ce1fe0f7 = $(`<div id="html_8417acdcf7b47c4311973962ce1fe0f7" style="width: 100.0%; height: 100.0%;">북가좌동<br>1제곱킬로미터당 학원 수: 0.05729166666666668<br>제곱미터당 가격(만원): 0.23860258468240292</div>`)[0];
+                popup_34810984ddffe9fe62287176fe640e88.setContent(html_8417acdcf7b47c4311973962ce1fe0f7);
+            
+        
+
+        circle_d66ed8e4e1bb74d908d5ccd344c76c27.bindPopup(popup_34810984ddffe9fe62287176fe640e88)
+        ;
+
+        
+    
+    
+            var circle_9243fc634167bbc65bbbf5696c9ebb25 = L.circle(
+                [37.525107, 127.049291],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.17708333333333334, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_45171380a0ce6a8409433b53c885d0dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f839d82ab8fef85eeafc4cd7b6d450a = $(`<div id="html_3f839d82ab8fef85eeafc4cd7b6d450a" style="width: 100.0%; height: 100.0%;">청담동<br>1제곱킬로미터당 학원 수: 0.17708333333333334<br>제곱미터당 가격(만원): 0.5478657074699305</div>`)[0];
+                popup_45171380a0ce6a8409433b53c885d0dd.setContent(html_3f839d82ab8fef85eeafc4cd7b6d450a);
+            
+        
+
+        circle_9243fc634167bbc65bbbf5696c9ebb25.bindPopup(popup_45171380a0ce6a8409433b53c885d0dd)
+        ;
+
+        
+    
+    
+            var circle_e7af72e4aa50f48456478ad9bd8246ea = L.circle(
+                [37.6674, 126.9138],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.26562500000000006, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_f23586cf7436460a0faa51b61207815c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b97bd78847ad59144978a39dc7271dfe = $(`<div id="html_b97bd78847ad59144978a39dc7271dfe" style="width: 100.0%; height: 100.0%;">오금동<br>1제곱킬로미터당 학원 수: 0.26562500000000006<br>제곱미터당 가격(만원): 0.2857772828998864</div>`)[0];
+                popup_f23586cf7436460a0faa51b61207815c.setContent(html_b97bd78847ad59144978a39dc7271dfe);
+            
+        
+
+        circle_e7af72e4aa50f48456478ad9bd8246ea.bindPopup(popup_f23586cf7436460a0faa51b61207815c)
+        ;
+
+        
+    
+    
+            var circle_eba6db1df87c9f934b07e72b1807c171 = L.circle(
+                [37.5634083, 126.90785],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.13020833333333334, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_0e0604e12db693dbac5d0a19ab5e0de0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34cb318746e5f574d95e66cd732fceb0 = $(`<div id="html_34cb318746e5f574d95e66cd732fceb0" style="width: 100.0%; height: 100.0%;">성산동<br>1제곱킬로미터당 학원 수: 0.13020833333333334<br>제곱미터당 가격(만원): 0.3716694107552815</div>`)[0];
+                popup_0e0604e12db693dbac5d0a19ab5e0de0.setContent(html_34cb318746e5f574d95e66cd732fceb0);
+            
+        
+
+        circle_eba6db1df87c9f934b07e72b1807c171.bindPopup(popup_0e0604e12db693dbac5d0a19ab5e0de0)
+        ;
+
+        
+    
+    
+            var circle_127a1e4d5b73d79beb2df7111428a1ea = L.circle(
+                [37.5003318, 126.8511255],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.05208333333333334, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_8f2e0dabc3f59f5696bd2be54860fb72 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce39fa2dc61949b86337d6628026c251 = $(`<div id="html_ce39fa2dc61949b86337d6628026c251" style="width: 100.0%; height: 100.0%;">개봉동<br>1제곱킬로미터당 학원 수: 0.05208333333333334<br>제곱미터당 가격(만원): 0.1588508452565916</div>`)[0];
+                popup_8f2e0dabc3f59f5696bd2be54860fb72.setContent(html_ce39fa2dc61949b86337d6628026c251);
+            
+        
+
+        circle_127a1e4d5b73d79beb2df7111428a1ea.bindPopup(popup_8f2e0dabc3f59f5696bd2be54860fb72)
+        ;
+
+        
+    
+    
+            var circle_9e8b4383e8ecc99439105ce95561d8b2 = L.circle(
+                [37.5876988, 126.9448779],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.015625000000000003, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_ab1e507a54681bc827c7b8cdcf7f0397 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b6a44862832a0eacc63193eff77f395 = $(`<div id="html_1b6a44862832a0eacc63193eff77f395" style="width: 100.0%; height: 100.0%;">홍제동<br>1제곱킬로미터당 학원 수: 0.015625000000000003<br>제곱미터당 가격(만원): 0.21016568150509712</div>`)[0];
+                popup_ab1e507a54681bc827c7b8cdcf7f0397.setContent(html_1b6a44862832a0eacc63193eff77f395);
+            
+        
+
+        circle_9e8b4383e8ecc99439105ce95561d8b2.bindPopup(popup_ab1e507a54681bc827c7b8cdcf7f0397)
+        ;
+
+        
+    
+    
+            var circle_fd4842b2dea73c2f1aeb7120dc0b2deb = L.circle(
+                [37.573295, 126.9197232],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.125, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_7fce593e671702fbf4480d7ebbf9ca93 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f462919c3a89be59ba46ad480f7ffe4d = $(`<div id="html_f462919c3a89be59ba46ad480f7ffe4d" style="width: 100.0%; height: 100.0%;">남가좌동<br>1제곱킬로미터당 학원 수: 0.125<br>제곱미터당 가격(만원): 0.2799848859145727</div>`)[0];
+                popup_7fce593e671702fbf4480d7ebbf9ca93.setContent(html_f462919c3a89be59ba46ad480f7ffe4d);
+            
+        
+
+        circle_fd4842b2dea73c2f1aeb7120dc0b2deb.bindPopup(popup_7fce593e671702fbf4480d7ebbf9ca93)
+        ;
+
+        
+    
+    
+            var circle_3c81d44120f06e7c4322b7dc2591fd24 = L.circle(
+                [37.553751, 126.8709777],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.06770833333333334, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_0eaa5f67845474f693e1657a24bf04d3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad7520798dda44a57fe3f36d1237e4cf = $(`<div id="html_ad7520798dda44a57fe3f36d1237e4cf" style="width: 100.0%; height: 100.0%;">염창동<br>1제곱킬로미터당 학원 수: 0.06770833333333334<br>제곱미터당 가격(만원): 0.23840423630899849</div>`)[0];
+                popup_0eaa5f67845474f693e1657a24bf04d3.setContent(html_ad7520798dda44a57fe3f36d1237e4cf);
+            
+        
+
+        circle_3c81d44120f06e7c4322b7dc2591fd24.bindPopup(popup_0eaa5f67845474f693e1657a24bf04d3)
+        ;
+
+        
+    
+    
+            var circle_e144409f6b14d6492c943e11ae9d7b8c = L.circle(
+                [37.5062595, 127.1093393],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.08854166666666669, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_6c8a29cb8a6068a356dc703a8ee2a740 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9689f061bb3a089f3ae0280a52baf95 = $(`<div id="html_a9689f061bb3a089f3ae0280a52baf95" style="width: 100.0%; height: 100.0%;">송파동<br>1제곱킬로미터당 학원 수: 0.08854166666666669<br>제곱미터당 가격(만원): 0.2749847335915096</div>`)[0];
+                popup_6c8a29cb8a6068a356dc703a8ee2a740.setContent(html_a9689f061bb3a089f3ae0280a52baf95);
+            
+        
+
+        circle_e144409f6b14d6492c943e11ae9d7b8c.bindPopup(popup_6c8a29cb8a6068a356dc703a8ee2a740)
+        ;
+
+        
+    
+    
+            var circle_4fb3cfa82d08aa4abf926352c93ccb85 = L.circle(
+                [37.6641763, 127.0407251],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.07812500000000001, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_218983e8e0ff8921b9154896a0141e01 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1c7ae444625ac7a80346cb294c5b6e0 = $(`<div id="html_a1c7ae444625ac7a80346cb294c5b6e0" style="width: 100.0%; height: 100.0%;">방학동<br>1제곱킬로미터당 학원 수: 0.07812500000000001<br>제곱미터당 가격(만원): 0.10263579302813566</div>`)[0];
+                popup_218983e8e0ff8921b9154896a0141e01.setContent(html_a1c7ae444625ac7a80346cb294c5b6e0);
+            
+        
+
+        circle_4fb3cfa82d08aa4abf926352c93ccb85.bindPopup(popup_218983e8e0ff8921b9154896a0141e01)
+        ;
+
+        
+    
+    
+            var circle_0e3b2a157d0a1a31972fd9dd23460eb0 = L.circle(
+                [37.5551015, 126.914588],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.01041666666666667, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_ebdd1bd9dcf712efdd367be3bbca964f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df5232e3f71a7829aad919841fa4f9a8 = $(`<div id="html_df5232e3f71a7829aad919841fa4f9a8" style="width: 100.0%; height: 100.0%;">서교동<br>1제곱킬로미터당 학원 수: 0.01041666666666667<br>제곱미터당 가격(만원): 0.22120551572352237</div>`)[0];
+                popup_ebdd1bd9dcf712efdd367be3bbca964f.setContent(html_df5232e3f71a7829aad919841fa4f9a8);
+            
+        
+
+        circle_0e3b2a157d0a1a31972fd9dd23460eb0.bindPopup(popup_ebdd1bd9dcf712efdd367be3bbca964f)
+        ;
+
+        
+    
+    
+            var circle_125c2f4e33e5c5170bf70f6e5501d4a5 = L.circle(
+                [37.528317, 126.929425],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.05208333333333334, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_0111674723fc7df18ea3b00dc39e4224 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5cf3e05dfbefd5dab604f96a101e8fc = $(`<div id="html_d5cf3e05dfbefd5dab604f96a101e8fc" style="width: 100.0%; height: 100.0%;">여의도동<br>1제곱킬로미터당 학원 수: 0.05208333333333334<br>제곱미터당 가격(만원): 0.43387553029134396</div>`)[0];
+                popup_0111674723fc7df18ea3b00dc39e4224.setContent(html_d5cf3e05dfbefd5dab604f96a101e8fc);
+            
+        
+
+        circle_125c2f4e33e5c5170bf70f6e5501d4a5.bindPopup(popup_0111674723fc7df18ea3b00dc39e4224)
+        ;
+
+        
+    
+    
+            var circle_1c9e51c6d18592e5e13a9e862b437c2b = L.circle(
+                [37.4643683, 127.1043555],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.15625, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_5cb28d9b6ff867d462ea3e41fe2322c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e5e5a5da424c1045b4a71315a5fea50e = $(`<div id="html_e5e5a5da424c1045b4a71315a5fea50e" style="width: 100.0%; height: 100.0%;">세곡동<br>1제곱킬로미터당 학원 수: 0.15625<br>제곱미터당 가격(만원): 0.43621733181828726</div>`)[0];
+                popup_5cb28d9b6ff867d462ea3e41fe2322c8.setContent(html_e5e5a5da424c1045b4a71315a5fea50e);
+            
+        
+
+        circle_1c9e51c6d18592e5e13a9e862b437c2b.bindPopup(popup_5cb28d9b6ff867d462ea3e41fe2322c8)
+        ;
+
+        
+    
+    
+            var circle_917588b46e912f957d45a16d0097ed9c = L.circle(
+                [37.4702453, 126.897041],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.026041666666666675, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_230a19fde9276e42071f10e5ad219620 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bcee2a5d39553ed4626f82b6ad0965af = $(`<div id="html_bcee2a5d39553ed4626f82b6ad0965af" style="width: 100.0%; height: 100.0%;">독산동<br>1제곱킬로미터당 학원 수: 0.026041666666666675<br>제곱미터당 가격(만원): 0.20436975713742173</div>`)[0];
+                popup_230a19fde9276e42071f10e5ad219620.setContent(html_bcee2a5d39553ed4626f82b6ad0965af);
+            
+        
+
+        circle_917588b46e912f957d45a16d0097ed9c.bindPopup(popup_230a19fde9276e42071f10e5ad219620)
+        ;
+
+        
+    
+    
+            var circle_18101fcdf3e79715c79a351a1d076010 = L.circle(
+                [37.6014512, 127.0166146],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.036458333333333336, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_74389787735afdbb3a43e772603bbeda = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c7d25fd453a5c3dff0d46518b4fa753 = $(`<div id="html_2c7d25fd453a5c3dff0d46518b4fa753" style="width: 100.0%; height: 100.0%;">정릉동<br>1제곱킬로미터당 학원 수: 0.036458333333333336<br>제곱미터당 가격(만원): 0.20205817866822062</div>`)[0];
+                popup_74389787735afdbb3a43e772603bbeda.setContent(html_2c7d25fd453a5c3dff0d46518b4fa753);
+            
+        
+
+        circle_18101fcdf3e79715c79a351a1d076010.bindPopup(popup_74389787735afdbb3a43e772603bbeda)
+        ;
+
+        
+    
+    
+            var circle_8efd981ce91eb31b7fd2eb580671d854 = L.circle(
+                [37.5873592, 127.0874227],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.020833333333333336, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_b3130d3c0ce5e7040fd873f349d8f852 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a96a33a586aa00e1698635ce84afa8e4 = $(`<div id="html_a96a33a586aa00e1698635ce84afa8e4" style="width: 100.0%; height: 100.0%;">면목동<br>1제곱킬로미터당 학원 수: 0.020833333333333336<br>제곱미터당 가격(만원): 0.16022470607332512</div>`)[0];
+                popup_b3130d3c0ce5e7040fd873f349d8f852.setContent(html_a96a33a586aa00e1698635ce84afa8e4);
+            
+        
+
+        circle_8efd981ce91eb31b7fd2eb580671d854.bindPopup(popup_b3130d3c0ce5e7040fd873f349d8f852)
+        ;
+
+        
+    
+    
+            var circle_293716d7b771451895e2b41e52b2771b = L.circle(
+                [37.497009, 126.845201],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.03125, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_5e83da49ba695aa502cdc5b76918b26c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df38eb042d004d0cc14f779b1f512a38 = $(`<div id="html_df38eb042d004d0cc14f779b1f512a38" style="width: 100.0%; height: 100.0%;">오류동<br>1제곱킬로미터당 학원 수: 0.03125<br>제곱미터당 가격(만원): 0.08492035359699615</div>`)[0];
+                popup_5e83da49ba695aa502cdc5b76918b26c.setContent(html_df38eb042d004d0cc14f779b1f512a38);
+            
+        
+
+        circle_293716d7b771451895e2b41e52b2771b.bindPopup(popup_5e83da49ba695aa502cdc5b76918b26c)
+        ;
+
+        
+    
+    
+            var circle_6c6dda457e2c369bdf04bfd7d63749e1 = L.circle(
+                [37.546892, 127.103025],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.05208333333333334, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_9331d2c692c86eff9c3e0bb139fd4a0f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_efd478669eba0f03c22fc193fde644ff = $(`<div id="html_efd478669eba0f03c22fc193fde644ff" style="width: 100.0%; height: 100.0%;">광장동<br>1제곱킬로미터당 학원 수: 0.05208333333333334<br>제곱미터당 가격(만원): 0.36242343330208276</div>`)[0];
+                popup_9331d2c692c86eff9c3e0bb139fd4a0f.setContent(html_efd478669eba0f03c22fc193fde644ff);
+            
+        
+
+        circle_6c6dda457e2c369bdf04bfd7d63749e1.bindPopup(popup_9331d2c692c86eff9c3e0bb139fd4a0f)
+        ;
+
+        
+    
+    
+            var circle_35efdb19bee7d513ea74e233897bba06 = L.circle(
+                [37.5739083, 126.9351754],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.04166666666666667, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_6435a01bbe6255194848159cb5a7cb98 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2bcccd200e77115c7a572aefaaf62abf = $(`<div id="html_2bcccd200e77115c7a572aefaaf62abf" style="width: 100.0%; height: 100.0%;">연희동<br>1제곱킬로미터당 학원 수: 0.04166666666666667<br>제곱미터당 가격(만원): 0.16322776633680253</div>`)[0];
+                popup_6435a01bbe6255194848159cb5a7cb98.setContent(html_2bcccd200e77115c7a572aefaaf62abf);
+            
+        
+
+        circle_35efdb19bee7d513ea74e233897bba06.bindPopup(popup_6435a01bbe6255194848159cb5a7cb98)
+        ;
+
+        
+    
+    
+            var circle_d3c162b29c8aeaffa3fbab0f9622e5b0 = L.circle(
+                [37.624874, 127.073838],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.01041666666666667, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_ec11e020886eae2e27e717fd3836e341 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63cd45cd88510c0b6bc32e476fb6be84 = $(`<div id="html_63cd45cd88510c0b6bc32e476fb6be84" style="width: 100.0%; height: 100.0%;">공릉동<br>1제곱킬로미터당 학원 수: 0.01041666666666667<br>제곱미터당 가격(만원): 0.17075792359979453</div>`)[0];
+                popup_ec11e020886eae2e27e717fd3836e341.setContent(html_63cd45cd88510c0b6bc32e476fb6be84);
+            
+        
+
+        circle_d3c162b29c8aeaffa3fbab0f9622e5b0.bindPopup(popup_ec11e020886eae2e27e717fd3836e341)
+        ;
+
+        
+    
+    
+            var circle_44ae0872d38be3d3d3e63e4f0902c9ef = L.circle(
+                [37.529, 126.8991],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.16666666666666669, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_df33cf03e693448cab0b9c8345ad5c40 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f718720099d8f503c7c76cfbc26d0f69 = $(`<div id="html_f718720099d8f503c7c76cfbc26d0f69" style="width: 100.0%; height: 100.0%;">당산동4가<br>1제곱킬로미터당 학원 수: 0.16666666666666669<br>제곱미터당 가격(만원): 0.335176897092812</div>`)[0];
+                popup_df33cf03e693448cab0b9c8345ad5c40.setContent(html_f718720099d8f503c7c76cfbc26d0f69);
+            
+        
+
+        circle_44ae0872d38be3d3d3e63e4f0902c9ef.bindPopup(popup_df33cf03e693448cab0b9c8345ad5c40)
+        ;
+
+        
+    
+    
+            var circle_7535f6eb525a1e3928517f62fa385ec5 = L.circle(
+                [37.578325, 126.8946875],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.20312500000000003, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_b899a8e9d8448601108035916ba4a161 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08f0853650d7156cf232876c184f9fdb = $(`<div id="html_08f0853650d7156cf232876c184f9fdb" style="width: 100.0%; height: 100.0%;">상암동<br>1제곱킬로미터당 학원 수: 0.20312500000000003<br>제곱미터당 가격(만원): 0.29619420283133485</div>`)[0];
+                popup_b899a8e9d8448601108035916ba4a161.setContent(html_08f0853650d7156cf232876c184f9fdb);
+            
+        
+
+        circle_7535f6eb525a1e3928517f62fa385ec5.bindPopup(popup_b899a8e9d8448601108035916ba4a161)
+        ;
+
+        
+    
+    
+            var circle_3e1dd93c81cc0e3ca15ede218350eb1f = L.circle(
+                [37.5900064, 127.0131352],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.09895833333333336, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_56614f7d335c5e3173f43897ce6a00d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_22f8e08aad14f001ed2cc06b8ad1ed97 = $(`<div id="html_22f8e08aad14f001ed2cc06b8ad1ed97" style="width: 100.0%; height: 100.0%;">삼선동4가<br>1제곱킬로미터당 학원 수: 0.09895833333333336<br>제곱미터당 가격(만원): 0.17545161514736918</div>`)[0];
+                popup_56614f7d335c5e3173f43897ce6a00d4.setContent(html_22f8e08aad14f001ed2cc06b8ad1ed97);
+            
+        
+
+        circle_3e1dd93c81cc0e3ca15ede218350eb1f.bindPopup(popup_56614f7d335c5e3173f43897ce6a00d4)
+        ;
+
+        
+    
+    
+            var circle_de55b23bb72fc3ffffbefb61f3a3c061 = L.circle(
+                [37.6021944, 126.9298245],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.0625, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_cf6163f12bd4dbdc6b4ef0e3f29156b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5dbb7ffe86202d30e3a21582dc6114af = $(`<div id="html_5dbb7ffe86202d30e3a21582dc6114af" style="width: 100.0%; height: 100.0%;">녹번동<br>1제곱킬로미터당 학원 수: 0.0625<br>제곱미터당 가격(만원): 0.21679227635677795</div>`)[0];
+                popup_cf6163f12bd4dbdc6b4ef0e3f29156b2.setContent(html_5dbb7ffe86202d30e3a21582dc6114af);
+            
+        
+
+        circle_de55b23bb72fc3ffffbefb61f3a3c061.bindPopup(popup_cf6163f12bd4dbdc6b4ef0e3f29156b2)
+        ;
+
+        
+    
+    
+            var circle_9c37ab1125f98085d13dee9cec7ed5aa = L.circle(
+                [37.550192, 126.960025],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.11458333333333336, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_05ebfc5b9d77e56291762ffbbb9a5bb9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ceb7cdbe08ebc05762cc244819c55a82 = $(`<div id="html_ceb7cdbe08ebc05762cc244819c55a82" style="width: 100.0%; height: 100.0%;">공덕동<br>1제곱킬로미터당 학원 수: 0.11458333333333336<br>제곱미터당 가격(만원): 0.420759951129305</div>`)[0];
+                popup_05ebfc5b9d77e56291762ffbbb9a5bb9.setContent(html_ceb7cdbe08ebc05762cc244819c55a82);
+            
+        
+
+        circle_9c37ab1125f98085d13dee9cec7ed5aa.bindPopup(popup_05ebfc5b9d77e56291762ffbbb9a5bb9)
+        ;
+
+        
+    
+    
+            var circle_f9c3a5ba8b899a23b8b8ac051b3abafd = L.circle(
+                [37.6025996, 127.0277608],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.09895833333333336, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_89870dc4087ed06012bb3b32b4d31680 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8239e14622735336a6005b5259a9df43 = $(`<div id="html_8239e14622735336a6005b5259a9df43" style="width: 100.0%; height: 100.0%;">돈암동<br>1제곱킬로미터당 학원 수: 0.09895833333333336<br>제곱미터당 가격(만원): 0.15890078817625375</div>`)[0];
+                popup_89870dc4087ed06012bb3b32b4d31680.setContent(html_8239e14622735336a6005b5259a9df43);
+            
+        
+
+        circle_f9c3a5ba8b899a23b8b8ac051b3abafd.bindPopup(popup_89870dc4087ed06012bb3b32b4d31680)
+        ;
+
+        
+    
+    
+            var circle_c7eff8cf5e10f5ad8f701ec1eb5313a5 = L.circle(
+                [37.5077664, 126.8805826],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.1197916666666667, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_2bbc979c8d26f3ea7e911e3ef3d76149 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7de22ee9104950e39a6197c332f5043e = $(`<div id="html_7de22ee9104950e39a6197c332f5043e" style="width: 100.0%; height: 100.0%;">신도림동<br>1제곱킬로미터당 학원 수: 0.1197916666666667<br>제곱미터당 가격(만원): 0.2722492336735316</div>`)[0];
+                popup_2bbc979c8d26f3ea7e911e3ef3d76149.setContent(html_7de22ee9104950e39a6197c332f5043e);
+            
+        
+
+        circle_c7eff8cf5e10f5ad8f701ec1eb5313a5.bindPopup(popup_2bbc979c8d26f3ea7e911e3ef3d76149)
+        ;
+
+        
+    
+    
+            var circle_70c5982f4586dadbcbdcb2a5629b0770 = L.circle(
+                [37.4900982, 127.1241719],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.046875, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_1c157838b118dda37dcf8677c16e4a01 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91b33ed492d7220a8432ee179a0405d3 = $(`<div id="html_91b33ed492d7220a8432ee179a0405d3" style="width: 100.0%; height: 100.0%;">문정동<br>1제곱킬로미터당 학원 수: 0.046875<br>제곱미터당 가격(만원): 0.3696092808234388</div>`)[0];
+                popup_1c157838b118dda37dcf8677c16e4a01.setContent(html_91b33ed492d7220a8432ee179a0405d3);
+            
+        
+
+        circle_70c5982f4586dadbcbdcb2a5629b0770.bindPopup(popup_1c157838b118dda37dcf8677c16e4a01)
+        ;
+
+        
+    
+    
+            var circle_5662578555b1cdc3ba7c9ce53568bbad = L.circle(
+                [37.503592, 127.1037],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.08854166666666669, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_8b120989c0c88512a5c3191064216616 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b81325acfb671d081eb619e28c77355 = $(`<div id="html_1b81325acfb671d081eb619e28c77355" style="width: 100.0%; height: 100.0%;">석촌동<br>1제곱킬로미터당 학원 수: 0.08854166666666669<br>제곱미터당 가격(만원): 0.320425295086149</div>`)[0];
+                popup_8b120989c0c88512a5c3191064216616.setContent(html_1b81325acfb671d081eb619e28c77355);
+            
+        
+
+        circle_5662578555b1cdc3ba7c9ce53568bbad.bindPopup(popup_8b120989c0c88512a5c3191064216616)
+        ;
+
+        
+    
+    
+            var circle_b07cf95050e6309f2d7327a9134ef9a2 = L.circle(
+                [37.5546, 126.9561],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.08333333333333334, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_fbe781dbe8c06b7e515151bdd25833d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1da0bd59e0c7e86038e35faebb17a9f = $(`<div id="html_e1da0bd59e0c7e86038e35faebb17a9f" style="width: 100.0%; height: 100.0%;">아현동<br>1제곱킬로미터당 학원 수: 0.08333333333333334<br>제곱미터당 가격(만원): 0.4677848413673844</div>`)[0];
+                popup_fbe781dbe8c06b7e515151bdd25833d5.setContent(html_e1da0bd59e0c7e86038e35faebb17a9f);
+            
+        
+
+        circle_b07cf95050e6309f2d7327a9134ef9a2.bindPopup(popup_fbe781dbe8c06b7e515151bdd25833d5)
+        ;
+
+        
+    
+    
+            var circle_53127fee9b7f8e3a9c0e3d0ceef2fde0 = L.circle(
+                [37.466, 127.0169],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.07812500000000001, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_1ad411198fe13d0af26320b87dae7bfa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a76f6391ccaee777dc7ad67e159389b = $(`<div id="html_3a76f6391ccaee777dc7ad67e159389b" style="width: 100.0%; height: 100.0%;">우면동<br>1제곱킬로미터당 학원 수: 0.07812500000000001<br>제곱미터당 가격(만원): 0.34372393867326967</div>`)[0];
+                popup_1ad411198fe13d0af26320b87dae7bfa.setContent(html_3a76f6391ccaee777dc7ad67e159389b);
+            
+        
+
+        circle_53127fee9b7f8e3a9c0e3d0ceef2fde0.bindPopup(popup_1ad411198fe13d0af26320b87dae7bfa)
+        ;
+
+        
+    
+    
+            var circle_32867540409e405ad0380f60cccf6dca = L.circle(
+                [37.6103876, 126.9320747],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.07812500000000001, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_e9bc2f2235244d3a39d32ca9d5ca93e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5123876136239d315387281470c29c4 = $(`<div id="html_d5123876136239d315387281470c29c4" style="width: 100.0%; height: 100.0%;">불광동<br>1제곱킬로미터당 학원 수: 0.07812500000000001<br>제곱미터당 가격(만원): 0.2055609189706637</div>`)[0];
+                popup_e9bc2f2235244d3a39d32ca9d5ca93e2.setContent(html_d5123876136239d315387281470c29c4);
+            
+        
+
+        circle_32867540409e405ad0380f60cccf6dca.bindPopup(popup_e9bc2f2235244d3a39d32ca9d5ca93e2)
+        ;
+
+        
+    
+    
+            var circle_34a1c5870e6ea385d3e79783b5175e25 = L.circle(
+                [37.488238, 127.0390246],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.05208333333333334, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_eec701cb19b291896bd3e97c2519f441 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f23cb5df50b768b56a0506ee06b35d24 = $(`<div id="html_f23cb5df50b768b56a0506ee06b35d24" style="width: 100.0%; height: 100.0%;">도곡동<br>1제곱킬로미터당 학원 수: 0.05208333333333334<br>제곱미터당 가격(만원): 0.5584490874939129</div>`)[0];
+                popup_eec701cb19b291896bd3e97c2519f441.setContent(html_f23cb5df50b768b56a0506ee06b35d24);
+            
+        
+
+        circle_34a1c5870e6ea385d3e79783b5175e25.bindPopup(popup_eec701cb19b291896bd3e97c2519f441)
+        ;
+
+        
+    
+    
+            var circle_eb619ee80c86056f93dfd487b06b85bc = L.circle(
+                [37.604407, 127.0387],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.07291666666666669, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_b773b08fc47d99ce8066b236fabc6c4f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c52ce949b77bdb47011a96fef1083c78 = $(`<div id="html_c52ce949b77bdb47011a96fef1083c78" style="width: 100.0%; height: 100.0%;">하월곡동<br>1제곱킬로미터당 학원 수: 0.07291666666666669<br>제곱미터당 가격(만원): 0.17012119666155795</div>`)[0];
+                popup_b773b08fc47d99ce8066b236fabc6c4f.setContent(html_c52ce949b77bdb47011a96fef1083c78);
+            
+        
+
+        circle_eb619ee80c86056f93dfd487b06b85bc.bindPopup(popup_b773b08fc47d99ce8066b236fabc6c4f)
+        ;
+
+        
+    
+    
+            var circle_fb300ab74e42faf693a703472cdb1bdf = L.circle(
+                [37.5990075, 127.0351572],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.2291666666666667, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_52be6647598205f2d985647e74cad039 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4409dee476d044e11c2c74725d752bb = $(`<div id="html_b4409dee476d044e11c2c74725d752bb" style="width: 100.0%; height: 100.0%;">종암동<br>1제곱킬로미터당 학원 수: 0.2291666666666667<br>제곱미터당 가격(만원): 0.21795793428101012</div>`)[0];
+                popup_52be6647598205f2d985647e74cad039.setContent(html_b4409dee476d044e11c2c74725d752bb);
+            
+        
+
+        circle_fb300ab74e42faf693a703472cdb1bdf.bindPopup(popup_52be6647598205f2d985647e74cad039)
+        ;
+
+        
+    
+    
+            var circle_b812efd9c7e4b65fe53c371c9490c8d6 = L.circle(
+                [37.6123734, 127.0784729],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.04166666666666667, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_f8942c6a8c8a918f1a67f966a0478197 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd6e844612ab13cf0c5df85e7e6a6cdd = $(`<div id="html_dd6e844612ab13cf0c5df85e7e6a6cdd" style="width: 100.0%; height: 100.0%;">묵동<br>1제곱킬로미터당 학원 수: 0.04166666666666667<br>제곱미터당 가격(만원): 0.13969885597555287</div>`)[0];
+                popup_f8942c6a8c8a918f1a67f966a0478197.setContent(html_dd6e844612ab13cf0c5df85e7e6a6cdd);
+            
+        
+
+        circle_b812efd9c7e4b65fe53c371c9490c8d6.bindPopup(popup_f8942c6a8c8a918f1a67f966a0478197)
+        ;
+
+        
+    
+    
+            var circle_31eea65520f57dd84f854195931e2a21 = L.circle(
+                [37.517008, 126.895338],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.07812500000000001, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_26bbc040783c2cfe49a42aecaf2affbe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1cd2dbf41b3d5b05d82d7d72b2cd84b9 = $(`<div id="html_1cd2dbf41b3d5b05d82d7d72b2cd84b9" style="width: 100.0%; height: 100.0%;">문래동3가<br>1제곱킬로미터당 학원 수: 0.07812500000000001<br>제곱미터당 가격(만원): 0.28673793567237904</div>`)[0];
+                popup_26bbc040783c2cfe49a42aecaf2affbe.setContent(html_1cd2dbf41b3d5b05d82d7d72b2cd84b9);
+            
+        
+
+        circle_31eea65520f57dd84f854195931e2a21.bindPopup(popup_26bbc040783c2cfe49a42aecaf2affbe)
+        ;
+
+        
+    
+    
+            var circle_081e75f44f783e2793bb4a50ab508c31 = L.circle(
+                [37.5695239, 126.8447099],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.01041666666666667, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_0ddb6e6427aaad0812b60a20cb6c77ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5be8c796ca65c5d4be070b3a438ce5fa = $(`<div id="html_5be8c796ca65c5d4be070b3a438ce5fa" style="width: 100.0%; height: 100.0%;">가양동<br>1제곱킬로미터당 학원 수: 0.01041666666666667<br>제곱미터당 가격(만원): 0.306169024169661</div>`)[0];
+                popup_0ddb6e6427aaad0812b60a20cb6c77ec.setContent(html_5be8c796ca65c5d4be070b3a438ce5fa);
+            
+        
+
+        circle_081e75f44f783e2793bb4a50ab508c31.bindPopup(popup_0ddb6e6427aaad0812b60a20cb6c77ec)
+        ;
+
+        
+    
+    
+            var circle_668914e5a8e675597d3483454021d35a = L.circle(
+                [37.4790462, 126.822314],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.08333333333333334, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_941d256d1a317375d7ff1608dfdf20b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d90cf136d1ef94957c28cf2eec85108 = $(`<div id="html_0d90cf136d1ef94957c28cf2eec85108" style="width: 100.0%; height: 100.0%;">항동<br>1제곱킬로미터당 학원 수: 0.08333333333333334<br>제곱미터당 가격(만원): 0.2152648625250253</div>`)[0];
+                popup_941d256d1a317375d7ff1608dfdf20b6.setContent(html_0d90cf136d1ef94957c28cf2eec85108);
+            
+        
+
+        circle_668914e5a8e675597d3483454021d35a.bindPopup(popup_941d256d1a317375d7ff1608dfdf20b6)
+        ;
+
+        
+    
+    
+            var circle_de1a230f4fc3a7b6af07142e0cc16bfa = L.circle(
+                [37.6199197, 127.0630165],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_94e39bdbfd418c61176eaf3589978093 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7a50f151a91314d3c9215c4320494c6 = $(`<div id="html_d7a50f151a91314d3c9215c4320494c6" style="width: 100.0%; height: 100.0%;">월계동<br>1제곱킬로미터당 학원 수: 0.0<br>제곱미터당 가격(만원): 0.23144178280731864</div>`)[0];
+                popup_94e39bdbfd418c61176eaf3589978093.setContent(html_d7a50f151a91314d3c9215c4320494c6);
+            
+        
+
+        circle_de1a230f4fc3a7b6af07142e0cc16bfa.bindPopup(popup_94e39bdbfd418c61176eaf3589978093)
+        ;
+
+        
+    
+    
+            var circle_8c5811b70dc7071a8c90279b7c9953ba = L.circle(
+                [37.5501, 126.93],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.140625, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_e47fc2e2d709cdbe62ac90a909e4b698 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae66660424c4370eb6da933c11c8ee02 = $(`<div id="html_ae66660424c4370eb6da933c11c8ee02" style="width: 100.0%; height: 100.0%;">창전동<br>1제곱킬로미터당 학원 수: 0.140625<br>제곱미터당 가격(만원): 0.2907989935765137</div>`)[0];
+                popup_e47fc2e2d709cdbe62ac90a909e4b698.setContent(html_ae66660424c4370eb6da933c11c8ee02);
+            
+        
+
+        circle_8c5811b70dc7071a8c90279b7c9953ba.bindPopup(popup_e47fc2e2d709cdbe62ac90a909e4b698)
+        ;
+
+        
+    
+    
+            var circle_27e00ee3adb3b4cb34d86dd2a84b2678 = L.circle(
+                [37.614165, 126.920813],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.05729166666666668, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_fd5f7059d83acca8d0d048b28a039391 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e9fa80a77062a94e5189a991f91ef00 = $(`<div id="html_5e9fa80a77062a94e5189a991f91ef00" style="width: 100.0%; height: 100.0%;">대조동<br>1제곱킬로미터당 학원 수: 0.05729166666666668<br>제곱미터당 가격(만원): 0.2270058514791024</div>`)[0];
+                popup_fd5f7059d83acca8d0d048b28a039391.setContent(html_5e9fa80a77062a94e5189a991f91ef00);
+            
+        
+
+        circle_27e00ee3adb3b4cb34d86dd2a84b2678.bindPopup(popup_fd5f7059d83acca8d0d048b28a039391)
+        ;
+
+        
+    
+    
+            var circle_f33100e45e720c0aa7348a10aaf753ef = L.circle(
+                [37.5239079, 127.0989414],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.036458333333333336, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_9e969f5e7cb368c5f38f7c61165e0785 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a88fba8971e1912ce1285f741c25f70 = $(`<div id="html_2a88fba8971e1912ce1285f741c25f70" style="width: 100.0%; height: 100.0%;">신천동<br>1제곱킬로미터당 학원 수: 0.036458333333333336<br>제곱미터당 가격(만원): 0.5642387279796551</div>`)[0];
+                popup_9e969f5e7cb368c5f38f7c61165e0785.setContent(html_2a88fba8971e1912ce1285f741c25f70);
+            
+        
+
+        circle_f33100e45e720c0aa7348a10aaf753ef.bindPopup(popup_9e969f5e7cb368c5f38f7c61165e0785)
+        ;
+
+        
+    
+    
+            var circle_8c5375999e47b90f2b7747c059e47719 = L.circle(
+                [37.5556222, 126.9055969],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.015625000000000003, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_30d8622b3f21f01c2747048380a3c9b4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_02159b74f7a70aac0e132bfecb7d972e = $(`<div id="html_02159b74f7a70aac0e132bfecb7d972e" style="width: 100.0%; height: 100.0%;">망원동<br>1제곱킬로미터당 학원 수: 0.015625000000000003<br>제곱미터당 가격(만원): 0.2221730365963142</div>`)[0];
+                popup_30d8622b3f21f01c2747048380a3c9b4.setContent(html_02159b74f7a70aac0e132bfecb7d972e);
+            
+        
+
+        circle_8c5375999e47b90f2b7747c059e47719.bindPopup(popup_30d8622b3f21f01c2747048380a3c9b4)
+        ;
+
+        
+    
+    
+            var circle_4c0c5c5150765f7cad7602a4b55c5bd1 = L.circle(
+                [37.600899, 127.1073],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.05729166666666668, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_588c47cc22fa318f87b6e12d6bca71c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dcaa11f690f36b9c1fd72c08e2e5e8dc = $(`<div id="html_dcaa11f690f36b9c1fd72c08e2e5e8dc" style="width: 100.0%; height: 100.0%;">망우동<br>1제곱킬로미터당 학원 수: 0.05729166666666668<br>제곱미터당 가격(만원): 0.10317396126677914</div>`)[0];
+                popup_588c47cc22fa318f87b6e12d6bca71c9.setContent(html_dcaa11f690f36b9c1fd72c08e2e5e8dc);
+            
+        
+
+        circle_4c0c5c5150765f7cad7602a4b55c5bd1.bindPopup(popup_588c47cc22fa318f87b6e12d6bca71c9)
+        ;
+
+        
+    
+    
+            var circle_3002095f7984de5487d3525d6ad4821d = L.circle(
+                [37.6117455, 126.9103893],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.05729166666666668, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_603847b81fa642644678d40d13c16917 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1fa8cd6707bfa5e578560ee32a27ea86 = $(`<div id="html_1fa8cd6707bfa5e578560ee32a27ea86" style="width: 100.0%; height: 100.0%;">구산동<br>1제곱킬로미터당 학원 수: 0.05729166666666668<br>제곱미터당 가격(만원): 0.0754933562136215</div>`)[0];
+                popup_603847b81fa642644678d40d13c16917.setContent(html_1fa8cd6707bfa5e578560ee32a27ea86);
+            
+        
+
+        circle_3002095f7984de5487d3525d6ad4821d.bindPopup(popup_603847b81fa642644678d40d13c16917)
+        ;
+
+        
+    
+    
+            var circle_2b8e9f3ab3eb90a1eae1f94032867d1e = L.circle(
+                [37.6141245, 127.0437129],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.020833333333333336, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_249fc4b5d8294638bfb97ad9dbdf371a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab5557068ffced4cc8484083194a86ce = $(`<div id="html_ab5557068ffced4cc8484083194a86ce" style="width: 100.0%; height: 100.0%;">장위동<br>1제곱킬로미터당 학원 수: 0.020833333333333336<br>제곱미터당 가격(만원): 0.23012132131647695</div>`)[0];
+                popup_249fc4b5d8294638bfb97ad9dbdf371a.setContent(html_ab5557068ffced4cc8484083194a86ce);
+            
+        
+
+        circle_2b8e9f3ab3eb90a1eae1f94032867d1e.bindPopup(popup_249fc4b5d8294638bfb97ad9dbdf371a)
+        ;
+
+        
+    
+    
+            var circle_08324afa9188b3b0c1df5bd12e9b2277 = L.circle(
+                [37.538092, 127.122075],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.07291666666666669, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_dfbdd39eef4a02cfd7321eeb0eac6914 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5355eb08fd815c1aa837feef1a4a7f6 = $(`<div id="html_d5355eb08fd815c1aa837feef1a4a7f6" style="width: 100.0%; height: 100.0%;">풍납동<br>1제곱킬로미터당 학원 수: 0.07291666666666669<br>제곱미터당 가격(만원): 0.2813041165817508</div>`)[0];
+                popup_dfbdd39eef4a02cfd7321eeb0eac6914.setContent(html_d5355eb08fd815c1aa837feef1a4a7f6);
+            
+        
+
+        circle_08324afa9188b3b0c1df5bd12e9b2277.bindPopup(popup_dfbdd39eef4a02cfd7321eeb0eac6914)
+        ;
+
+        
+    
+    
+            var circle_bb8974933ae9c0cb38eb6085b290a085 = L.circle(
+                [37.6405374, 127.0725852],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.03125, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_6dada933affd971b288c6e37075ae69b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2135e06b72dd56604ce59cf3a4d317e8 = $(`<div id="html_2135e06b72dd56604ce59cf3a4d317e8" style="width: 100.0%; height: 100.0%;">하계동<br>1제곱킬로미터당 학원 수: 0.03125<br>제곱미터당 가격(만원): 0.23404897891257703</div>`)[0];
+                popup_6dada933affd971b288c6e37075ae69b.setContent(html_2135e06b72dd56604ce59cf3a4d317e8);
+            
+        
+
+        circle_bb8974933ae9c0cb38eb6085b290a085.bindPopup(popup_6dada933affd971b288c6e37075ae69b)
+        ;
+
+        
+    
+    
+            var circle_fcdd2316f74c384a35ebe34786ec60f3 = L.circle(
+                [37.5620973, 127.0145478],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.015625000000000003, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_1d7b7a3a54b2edaa9bfee6fbbc8f14f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3ed0ff34d640ae780b9941344c01cd9 = $(`<div id="html_b3ed0ff34d640ae780b9941344c01cd9" style="width: 100.0%; height: 100.0%;">신당동<br>1제곱킬로미터당 학원 수: 0.015625000000000003<br>제곱미터당 가격(만원): 0.2544502522516546</div>`)[0];
+                popup_1d7b7a3a54b2edaa9bfee6fbbc8f14f6.setContent(html_b3ed0ff34d640ae780b9941344c01cd9);
+            
+        
+
+        circle_fcdd2316f74c384a35ebe34786ec60f3.bindPopup(popup_1d7b7a3a54b2edaa9bfee6fbbc8f14f6)
+        ;
+
+        
+    
+    
+            var circle_b63309ad9dbebe03ce530f9e61f665e9 = L.circle(
+                [37.491839, 127.0879629],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.04166666666666667, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_5ea6b6c2ef17ab131b5c057d4c1538ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dbb828fd2bdad9dd9a880b14d6c7af42 = $(`<div id="html_dbb828fd2bdad9dd9a880b14d6c7af42" style="width: 100.0%; height: 100.0%;">일원동<br>1제곱킬로미터당 학원 수: 0.04166666666666667<br>제곱미터당 가격(만원): 0.5922413148951192</div>`)[0];
+                popup_5ea6b6c2ef17ab131b5c057d4c1538ff.setContent(html_dbb828fd2bdad9dd9a880b14d6c7af42);
+            
+        
+
+        circle_b63309ad9dbebe03ce530f9e61f665e9.bindPopup(popup_5ea6b6c2ef17ab131b5c057d4c1538ff)
+        ;
+
+        
+    
+    
+            var circle_48200e1cc25edfd750bddfe48b53e90d = L.circle(
+                [37.6044046, 126.915114],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.005208333333333334, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_a80da2dd15517cdf5c8315a85f4dbda3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2055cfafc2b3bd9cfeaf839d0ec1d71a = $(`<div id="html_2055cfafc2b3bd9cfeaf839d0ec1d71a" style="width: 100.0%; height: 100.0%;">역촌동<br>1제곱킬로미터당 학원 수: 0.005208333333333334<br>제곱미터당 가격(만원): 0.07906317223918993</div>`)[0];
+                popup_a80da2dd15517cdf5c8315a85f4dbda3.setContent(html_2055cfafc2b3bd9cfeaf839d0ec1d71a);
+            
+        
+
+        circle_48200e1cc25edfd750bddfe48b53e90d.bindPopup(popup_a80da2dd15517cdf5c8315a85f4dbda3)
+        ;
+
+        
+    
+    
+            var circle_61be5b70b8a7766d39f48bcbdba70817 = L.circle(
+                [37.547083, 126.94565],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.005208333333333334, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_fbeb7cb63458c615359fe96f82ab0a01 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f03d2bef609a9c00ef787f22e8a9b3c9 = $(`<div id="html_f03d2bef609a9c00ef787f22e8a9b3c9" style="width: 100.0%; height: 100.0%;">염리동<br>1제곱킬로미터당 학원 수: 0.005208333333333334<br>제곱미터당 가격(만원): 0.49450236606717757</div>`)[0];
+                popup_fbeb7cb63458c615359fe96f82ab0a01.setContent(html_f03d2bef609a9c00ef787f22e8a9b3c9);
+            
+        
+
+        circle_61be5b70b8a7766d39f48bcbdba70817.bindPopup(popup_fbeb7cb63458c615359fe96f82ab0a01)
+        ;
+
+        
+    
+    
+            var circle_c53f55fcaf786543941e129e97eb646a = L.circle(
+                [37.5004631, 126.8628603],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.03125, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_c4441f0c1d1543d9e2929e52edcc467b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ba9d32d27bc8edcbe94f72257657c3f = $(`<div id="html_0ba9d32d27bc8edcbe94f72257657c3f" style="width: 100.0%; height: 100.0%;">고척동<br>1제곱킬로미터당 학원 수: 0.03125<br>제곱미터당 가격(만원): 0.14641444678429716</div>`)[0];
+                popup_c4441f0c1d1543d9e2929e52edcc467b.setContent(html_0ba9d32d27bc8edcbe94f72257657c3f);
+            
+        
+
+        circle_c53f55fcaf786543941e129e97eb646a.bindPopup(popup_c4441f0c1d1543d9e2929e52edcc467b)
+        ;
+
+        
+    
+    
+            var circle_cda5dd32c6a9781f2353609c0f27d034 = L.circle(
+                [37.5595, 126.957025],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.05208333333333334, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_a4a2626aa91ffb706e036836fbe25b41 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45aa3c63ef36df934a5b1831009f6e40 = $(`<div id="html_45aa3c63ef36df934a5b1831009f6e40" style="width: 100.0%; height: 100.0%;">북아현동<br>1제곱킬로미터당 학원 수: 0.05208333333333334<br>제곱미터당 가격(만원): 0.3820731288380613</div>`)[0];
+                popup_a4a2626aa91ffb706e036836fbe25b41.setContent(html_45aa3c63ef36df934a5b1831009f6e40);
+            
+        
+
+        circle_cda5dd32c6a9781f2353609c0f27d034.bindPopup(popup_a4a2626aa91ffb706e036836fbe25b41)
+        ;
+
+        
+    
+    
+            var circle_c9ae6a17f9fe6c4e35c318bc8a0d23ba = L.circle(
+                [37.470101, 127.039888],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.0625, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_a19e15fce8c0f8bc2e2442eee6a08623 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ae6abc64ce2c9b6347af857bfddf9c0 = $(`<div id="html_2ae6abc64ce2c9b6347af857bfddf9c0" style="width: 100.0%; height: 100.0%;">양재동<br>1제곱킬로미터당 학원 수: 0.0625<br>제곱미터당 가격(만원): 0.2425619738886441</div>`)[0];
+                popup_a19e15fce8c0f8bc2e2442eee6a08623.setContent(html_2ae6abc64ce2c9b6347af857bfddf9c0);
+            
+        
+
+        circle_c9ae6a17f9fe6c4e35c318bc8a0d23ba.bindPopup(popup_a19e15fce8c0f8bc2e2442eee6a08623)
+        ;
+
+        
+    
+    
+            var circle_7c813233af6a2faf426fabeafc90797e = L.circle(
+                [37.4969643, 127.1432324],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.05729166666666668, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_470a1475998b759553200c1b05737e52 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ee770d265d9b4598ccba670d6f6dbeb = $(`<div id="html_6ee770d265d9b4598ccba670d6f6dbeb" style="width: 100.0%; height: 100.0%;">거여동<br>1제곱킬로미터당 학원 수: 0.05729166666666668<br>제곱미터당 가격(만원): 0.34992068338542376</div>`)[0];
+                popup_470a1475998b759553200c1b05737e52.setContent(html_6ee770d265d9b4598ccba670d6f6dbeb);
+            
+        
+
+        circle_7c813233af6a2faf426fabeafc90797e.bindPopup(popup_470a1475998b759553200c1b05737e52)
+        ;
+
+        
+    
+    
+            var circle_f559d96b0305b63cd24920028fdbec22 = L.circle(
+                [37.574567, 126.9894],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.06770833333333334, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_540f15d538e7b9d12259e4a8c6dc0ee3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9e6b6689b9e99c1e099bf9c5223bd45d = $(`<div id="html_9e6b6689b9e99c1e099bf9c5223bd45d" style="width: 100.0%; height: 100.0%;">익선동<br>1제곱킬로미터당 학원 수: 0.06770833333333334<br>제곱미터당 가격(만원): 0.11633969498102326</div>`)[0];
+                popup_540f15d538e7b9d12259e4a8c6dc0ee3.setContent(html_9e6b6689b9e99c1e099bf9c5223bd45d);
+            
+        
+
+        circle_f559d96b0305b63cd24920028fdbec22.bindPopup(popup_540f15d538e7b9d12259e4a8c6dc0ee3)
+        ;
+
+        
+    
+    
+            var circle_b282f0ac4ad87d8baf58128f5f035e50 = L.circle(
+                [37.612957, 127.061413],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.036458333333333336, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_235d4ba630808090a0d30666fd0b9fed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c4824f8b37a2f941673487bbbc5b406 = $(`<div id="html_9c4824f8b37a2f941673487bbbc5b406" style="width: 100.0%; height: 100.0%;">석관동<br>1제곱킬로미터당 학원 수: 0.036458333333333336<br>제곱미터당 가격(만원): 0.24301957965200321</div>`)[0];
+                popup_235d4ba630808090a0d30666fd0b9fed.setContent(html_9c4824f8b37a2f941673487bbbc5b406);
+            
+        
+
+        circle_b282f0ac4ad87d8baf58128f5f035e50.bindPopup(popup_235d4ba630808090a0d30666fd0b9fed)
+        ;
+
+        
+    
+    
+            var circle_6dd4508708553b6e40014e1ce5c090e6 = L.circle(
+                [37.5134, 126.9061],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.020833333333333336, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_8f8827eaf11cfc8130333958d3135029 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_30e80b93ee4612cc88c638d2b5df1dcd = $(`<div id="html_30e80b93ee4612cc88c638d2b5df1dcd" style="width: 100.0%; height: 100.0%;">영등포동<br>1제곱킬로미터당 학원 수: 0.020833333333333336<br>제곱미터당 가격(만원): 0.3226033671126777</div>`)[0];
+                popup_8f8827eaf11cfc8130333958d3135029.setContent(html_30e80b93ee4612cc88c638d2b5df1dcd);
+            
+        
+
+        circle_6dd4508708553b6e40014e1ce5c090e6.bindPopup(popup_8f8827eaf11cfc8130333958d3135029)
+        ;
+
+        
+    
+    
+            var circle_8c714ad35d6f7a341858b06b3af9b0a9 = L.circle(
+                [37.5998799, 127.0872004],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.05208333333333334, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_1fc2680ea8f3e240c729e9e12ee2ba5a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_878379f00adba83417e85e1429d103c3 = $(`<div id="html_878379f00adba83417e85e1429d103c3" style="width: 100.0%; height: 100.0%;">상봉동<br>1제곱킬로미터당 학원 수: 0.05208333333333334<br>제곱미터당 가격(만원): 0.20619042700066748</div>`)[0];
+                popup_1fc2680ea8f3e240c729e9e12ee2ba5a.setContent(html_878379f00adba83417e85e1429d103c3);
+            
+        
+
+        circle_8c714ad35d6f7a341858b06b3af9b0a9.bindPopup(popup_1fc2680ea8f3e240c729e9e12ee2ba5a)
+        ;
+
+        
+    
+    
+            var circle_489c90caf6fbeb366ecb7d2dfe928bf4 = L.circle(
+                [37.577333, 126.813325],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.01041666666666667, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_d84eb49b3f65a1ece8238955cde72a32 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34d6fdd09800dd873f12492acd47ff71 = $(`<div id="html_34d6fdd09800dd873f12492acd47ff71" style="width: 100.0%; height: 100.0%;">방화동<br>1제곱킬로미터당 학원 수: 0.01041666666666667<br>제곱미터당 가격(만원): 0.17695893142870395</div>`)[0];
+                popup_d84eb49b3f65a1ece8238955cde72a32.setContent(html_34d6fdd09800dd873f12492acd47ff71);
+            
+        
+
+        circle_489c90caf6fbeb366ecb7d2dfe928bf4.bindPopup(popup_d84eb49b3f65a1ece8238955cde72a32)
+        ;
+
+        
+    
+    
+            var circle_f614494163fb9a902ad3054c99613a72 = L.circle(
+                [37.6378913, 127.0288473],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_acb0f4c8c5ba7f0ad7c6989ff7e7df76 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d53a6ecb8b4a2b18ce13ab4efb4f54bd = $(`<div id="html_d53a6ecb8b4a2b18ce13ab4efb4f54bd" style="width: 100.0%; height: 100.0%;">번동<br>1제곱킬로미터당 학원 수: 0.0<br>제곱미터당 가격(만원): 0.14395277869525952</div>`)[0];
+                popup_acb0f4c8c5ba7f0ad7c6989ff7e7df76.setContent(html_d53a6ecb8b4a2b18ce13ab4efb4f54bd);
+            
+        
+
+        circle_f614494163fb9a902ad3054c99613a72.bindPopup(popup_acb0f4c8c5ba7f0ad7c6989ff7e7df76)
+        ;
+
+        
+    
+    
+            var circle_f791ca8820665d29441ace1286d0bde3 = L.circle(
+                [37.4954685, 126.905818],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.015625000000000003, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_95ec3353dc5903749462dfcaff139809 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d9befb2dd57b8e7afe2dd09762713f0 = $(`<div id="html_4d9befb2dd57b8e7afe2dd09762713f0" style="width: 100.0%; height: 100.0%;">대림동<br>1제곱킬로미터당 학원 수: 0.015625000000000003<br>제곱미터당 가격(만원): 0.11219425518266443</div>`)[0];
+                popup_95ec3353dc5903749462dfcaff139809.setContent(html_4d9befb2dd57b8e7afe2dd09762713f0);
+            
+        
+
+        circle_f791ca8820665d29441ace1286d0bde3.bindPopup(popup_95ec3353dc5903749462dfcaff139809)
+        ;
+
+        
+    
+    
+            var circle_75707d03c3b728f2c3d123dc7d4f73f2 = L.circle(
+                [37.4960195, 127.1499724],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.026041666666666675, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_b7c6a2f4a6244457bbf18718e88f1954 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92ff400473cff9318756fe281c0c27d6 = $(`<div id="html_92ff400473cff9318756fe281c0c27d6" style="width: 100.0%; height: 100.0%;">마천동<br>1제곱킬로미터당 학원 수: 0.026041666666666675<br>제곱미터당 가격(만원): 0.22004664398514545</div>`)[0];
+                popup_b7c6a2f4a6244457bbf18718e88f1954.setContent(html_92ff400473cff9318756fe281c0c27d6);
+            
+        
+
+        circle_75707d03c3b728f2c3d123dc7d4f73f2.bindPopup(popup_b7c6a2f4a6244457bbf18718e88f1954)
+        ;
+
+        
+    
+    
+            var circle_229a41bcf482bde6bc8d04f10da6ef81 = L.circle(
+                [37.4581029, 127.0766779],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_a3b1a0c49ed56f3ee987b474bffd5ee9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cfad8864a7f2842b86a9c5e829cb45de = $(`<div id="html_cfad8864a7f2842b86a9c5e829cb45de" style="width: 100.0%; height: 100.0%;">내곡동<br>1제곱킬로미터당 학원 수: 0.0<br>제곱미터당 가격(만원): 0.42958514018041416</div>`)[0];
+                popup_a3b1a0c49ed56f3ee987b474bffd5ee9.setContent(html_cfad8864a7f2842b86a9c5e829cb45de);
+            
+        
+
+        circle_229a41bcf482bde6bc8d04f10da6ef81.bindPopup(popup_a3b1a0c49ed56f3ee987b474bffd5ee9)
+        ;
+
+        
+    
+    
+            var circle_4552c7857090a50beab63e589aafff7d = L.circle(
+                [37.5471182, 126.9351878],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.03125, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_3f7eee53ab28fc3c766ddc4367fe4b32 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a80672a7c15e1a7c13ac9a8750fad5b5 = $(`<div id="html_a80672a7c15e1a7c13ac9a8750fad5b5" style="width: 100.0%; height: 100.0%;">신수동<br>1제곱킬로미터당 학원 수: 0.03125<br>제곱미터당 가격(만원): 0.31932495420077456</div>`)[0];
+                popup_3f7eee53ab28fc3c766ddc4367fe4b32.setContent(html_a80672a7c15e1a7c13ac9a8750fad5b5);
+            
+        
+
+        circle_4552c7857090a50beab63e589aafff7d.bindPopup(popup_3f7eee53ab28fc3c766ddc4367fe4b32)
+        ;
+
+        
+    
+    
+            var circle_c745bd44699b3478466916c1a30e22a6 = L.circle(
+                [37.5009, 126.8277],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.04166666666666667, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_06183411484bc08935193100dd20218d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03ea8f7e1a63ba3b72806df31f94ea35 = $(`<div id="html_03ea8f7e1a63ba3b72806df31f94ea35" style="width: 100.0%; height: 100.0%;">궁동<br>1제곱킬로미터당 학원 수: 0.04166666666666667<br>제곱미터당 가격(만원): 0.09607402082415417</div>`)[0];
+                popup_06183411484bc08935193100dd20218d.setContent(html_03ea8f7e1a63ba3b72806df31f94ea35);
+            
+        
+
+        circle_c745bd44699b3478466916c1a30e22a6.bindPopup(popup_06183411484bc08935193100dd20218d)
+        ;
+
+        
+    
+    
+            var circle_99131925efa1058322e5f44a861e5ca3 = L.circle(
+                [37.4769094, 126.8917326],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.015625000000000003, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_35e4886c6bf5b2ebff324b1c6d1a1957 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_911cfd38aefbd0c8d2cd51f7e350c9eb = $(`<div id="html_911cfd38aefbd0c8d2cd51f7e350c9eb" style="width: 100.0%; height: 100.0%;">가산동<br>1제곱킬로미터당 학원 수: 0.015625000000000003<br>제곱미터당 가격(만원): 0.16893120202024675</div>`)[0];
+                popup_35e4886c6bf5b2ebff324b1c6d1a1957.setContent(html_911cfd38aefbd0c8d2cd51f7e350c9eb);
+            
+        
+
+        circle_99131925efa1058322e5f44a861e5ca3.bindPopup(popup_35e4886c6bf5b2ebff324b1c6d1a1957)
+        ;
+
+        
+    
+    
+            var circle_94edeb7f0f70ba51585f5603eddce8f0 = L.circle(
+                [37.5843063, 126.9070404],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.020833333333333336, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_0c12287beb4f273dbceac415da662099 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ac970bfe7a62cd2f14e6e420f04f1e8 = $(`<div id="html_0ac970bfe7a62cd2f14e6e420f04f1e8" style="width: 100.0%; height: 100.0%;">증산동<br>1제곱킬로미터당 학원 수: 0.020833333333333336<br>제곱미터당 가격(만원): 0.15697442973200693</div>`)[0];
+                popup_0c12287beb4f273dbceac415da662099.setContent(html_0ac970bfe7a62cd2f14e6e420f04f1e8);
+            
+        
+
+        circle_94edeb7f0f70ba51585f5603eddce8f0.bindPopup(popup_0c12287beb4f273dbceac415da662099)
+        ;
+
+        
+    
+    
+            var circle_35f0e525afff5608d028e3300115392d = L.circle(
+                [37.564501, 126.922027],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.04166666666666667, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_7e10a45479a37d884185f18c55dc8f7f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_627dc680041c99b338141aa04243a448 = $(`<div id="html_627dc680041c99b338141aa04243a448" style="width: 100.0%; height: 100.0%;">연남동<br>1제곱킬로미터당 학원 수: 0.04166666666666667<br>제곱미터당 가격(만원): 0.2564782392484547</div>`)[0];
+                popup_7e10a45479a37d884185f18c55dc8f7f.setContent(html_627dc680041c99b338141aa04243a448);
+            
+        
+
+        circle_35f0e525afff5608d028e3300115392d.bindPopup(popup_7e10a45479a37d884185f18c55dc8f7f)
+        ;
+
+        
+    
+    
+            var circle_b1b55852eb22537355e89e71817ae593 = L.circle(
+                [37.5415123, 126.9498798],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.046875, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_e992695c142a02091aa75ea9d13b723e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_75866a5450c3610cbaf23cd164e84b6f = $(`<div id="html_75866a5450c3610cbaf23cd164e84b6f" style="width: 100.0%; height: 100.0%;">도화동<br>1제곱킬로미터당 학원 수: 0.046875<br>제곱미터당 가격(만원): 0.3259358888141672</div>`)[0];
+                popup_e992695c142a02091aa75ea9d13b723e.setContent(html_75866a5450c3610cbaf23cd164e84b6f);
+            
+        
+
+        circle_b1b55852eb22537355e89e71817ae593.bindPopup(popup_e992695c142a02091aa75ea9d13b723e)
+        ;
+
+        
+    
+    
+            var circle_8869f823b78a420de35b92e466f91f89 = L.circle(
+                [37.5325225, 126.9950384],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.026041666666666675, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_446cf9173dd452acc8b5fe9571ab5257 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81b889144d2beb11a871a026012fe586 = $(`<div id="html_81b889144d2beb11a871a026012fe586" style="width: 100.0%; height: 100.0%;">이태원동<br>1제곱킬로미터당 학원 수: 0.026041666666666675<br>제곱미터당 가격(만원): 0.38004467840054423</div>`)[0];
+                popup_446cf9173dd452acc8b5fe9571ab5257.setContent(html_81b889144d2beb11a871a026012fe586);
+            
+        
+
+        circle_8869f823b78a420de35b92e466f91f89.bindPopup(popup_446cf9173dd452acc8b5fe9571ab5257)
+        ;
+
+        
+    
+    
+            var circle_7c6392d37ae033110274304331ec5a34 = L.circle(
+                [37.5214167, 126.9732],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.020833333333333336, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_d26b83c4dd4da67985e77cee5d25dc48 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a13d5d05029dfa91745dc8a2400833e = $(`<div id="html_0a13d5d05029dfa91745dc8a2400833e" style="width: 100.0%; height: 100.0%;">이촌동<br>1제곱킬로미터당 학원 수: 0.020833333333333336<br>제곱미터당 가격(만원): 0.6027311983115445</div>`)[0];
+                popup_d26b83c4dd4da67985e77cee5d25dc48.setContent(html_0a13d5d05029dfa91745dc8a2400833e);
+            
+        
+
+        circle_7c6392d37ae033110274304331ec5a34.bindPopup(popup_d26b83c4dd4da67985e77cee5d25dc48)
+        ;
+
+        
+    
+    
+            var circle_3f5b9e1c0438c78aeb6fb0cdf97ddd0d = L.circle(
+                [37.4745394, 126.9778366],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.005208333333333334, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_592913fdae232e355cf8e4d9b5534a15 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a3e10c3fb97d1fbb81a81bffb620bb2e = $(`<div id="html_a3e10c3fb97d1fbb81a81bffb620bb2e" style="width: 100.0%; height: 100.0%;">남현동<br>1제곱킬로미터당 학원 수: 0.005208333333333334<br>제곱미터당 가격(만원): 0.18096727620647574</div>`)[0];
+                popup_592913fdae232e355cf8e4d9b5534a15.setContent(html_a3e10c3fb97d1fbb81a81bffb620bb2e);
+            
+        
+
+        circle_3f5b9e1c0438c78aeb6fb0cdf97ddd0d.bindPopup(popup_592913fdae232e355cf8e4d9b5534a15)
+        ;
+
+        
+    
+    
+            var circle_8526437ba8be44a14d9451a27bb4713d = L.circle(
+                [37.6011745, 127.080623],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.01041666666666667, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_f0bb32bead2c94a47461d71d81576b68 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0452ae42f9179466bcc62d5a8e5b8f63 = $(`<div id="html_0452ae42f9179466bcc62d5a8e5b8f63" style="width: 100.0%; height: 100.0%;">중화동<br>1제곱킬로미터당 학원 수: 0.01041666666666667<br>제곱미터당 가격(만원): 0.10040037143499536</div>`)[0];
+                popup_f0bb32bead2c94a47461d71d81576b68.setContent(html_0452ae42f9179466bcc62d5a8e5b8f63);
+            
+        
+
+        circle_8526437ba8be44a14d9451a27bb4713d.bindPopup(popup_f0bb32bead2c94a47461d71d81576b68)
+        ;
+
+        
+    
+    
+            var circle_bcea2a2103d3304196e50a48ac458255 = L.circle(
+                [37.5554853, 127.0753494],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.04166666666666667, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_4490596bc99734de66259b10ec92b76c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9bce0b1a945907f2dbaf113ea40381be = $(`<div id="html_9bce0b1a945907f2dbaf113ea40381be" style="width: 100.0%; height: 100.0%;">군자동<br>1제곱킬로미터당 학원 수: 0.04166666666666667<br>제곱미터당 가격(만원): 0.21027062124620272</div>`)[0];
+                popup_4490596bc99734de66259b10ec92b76c.setContent(html_9bce0b1a945907f2dbaf113ea40381be);
+            
+        
+
+        circle_bcea2a2103d3304196e50a48ac458255.bindPopup(popup_4490596bc99734de66259b10ec92b76c)
+        ;
+
+        
+    
+    
+            var circle_6f27a5740a6abc2bb326d6a6b4ad97ed = L.circle(
+                [37.5753929, 126.9659253],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.08854166666666669, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_d847a1bc2dbd70b7bf97f84fc9debd55 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9446055897c317d2231e50a462eb1a3c = $(`<div id="html_9446055897c317d2231e50a462eb1a3c" style="width: 100.0%; height: 100.0%;">사직동<br>1제곱킬로미터당 학원 수: 0.08854166666666669<br>제곱미터당 가격(만원): 0.2083111100804675</div>`)[0];
+                popup_d847a1bc2dbd70b7bf97f84fc9debd55.setContent(html_9446055897c317d2231e50a462eb1a3c);
+            
+        
+
+        circle_6f27a5740a6abc2bb326d6a6b4ad97ed.bindPopup(popup_d847a1bc2dbd70b7bf97f84fc9debd55)
+        ;
+
+        
+    
+    
+            var circle_890526a4b4d060f49e8c7de2b9913fa7 = L.circle(
+                [37.5261, 126.8971],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.036458333333333336, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_36402c6bb11cc8509c425ea7a989bb57 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_278d8c9dcd50392004fb958c146d8987 = $(`<div id="html_278d8c9dcd50392004fb958c146d8987" style="width: 100.0%; height: 100.0%;">당산동3가<br>1제곱킬로미터당 학원 수: 0.036458333333333336<br>제곱미터당 가격(만원): 0.32186226994102146</div>`)[0];
+                popup_36402c6bb11cc8509c425ea7a989bb57.setContent(html_278d8c9dcd50392004fb958c146d8987);
+            
+        
+
+        circle_890526a4b4d060f49e8c7de2b9913fa7.bindPopup(popup_36402c6bb11cc8509c425ea7a989bb57)
+        ;
+
+        
+    
+    
+            var circle_9ea1240260ed72b5be6e8e2682ae9cf2 = L.circle(
+                [37.6063166, 126.9681871],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.015625000000000003, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_4693d7dd735efec31373294a7c60cbbd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_499be4b0dbef634d278490c28f3c4890 = $(`<div id="html_499be4b0dbef634d278490c28f3c4890" style="width: 100.0%; height: 100.0%;">평창동<br>1제곱킬로미터당 학원 수: 0.015625000000000003<br>제곱미터당 가격(만원): 0.12745866474966955</div>`)[0];
+                popup_4693d7dd735efec31373294a7c60cbbd.setContent(html_499be4b0dbef634d278490c28f3c4890);
+            
+        
+
+        circle_9ea1240260ed72b5be6e8e2682ae9cf2.bindPopup(popup_4693d7dd735efec31373294a7c60cbbd)
+        ;
+
+        
+    
+    
+            var circle_53fcdaa1fed159bb36f82e189ebcedd8 = L.circle(
+                [37.5911237, 127.0032875],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.03125, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_06dce2a637f0ab2dec6476d246d5ae35 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f75dad61fee424416be311f3a2af0b9b = $(`<div id="html_f75dad61fee424416be311f3a2af0b9b" style="width: 100.0%; height: 100.0%;">성북동<br>1제곱킬로미터당 학원 수: 0.03125<br>제곱미터당 가격(만원): 0.03496973772696704</div>`)[0];
+                popup_06dce2a637f0ab2dec6476d246d5ae35.setContent(html_f75dad61fee424416be311f3a2af0b9b);
+            
+        
+
+        circle_53fcdaa1fed159bb36f82e189ebcedd8.bindPopup(popup_06dce2a637f0ab2dec6476d246d5ae35)
+        ;
+
+        
+    
+    
+            var circle_1902786dbbdf721ac1ce1fffd9b7add7 = L.circle(
+                [37.5353, 126.9513],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.125, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_da67d5d5ad456c97263eb4d573149841 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f756c360ab8993c231c072fddc55880 = $(`<div id="html_8f756c360ab8993c231c072fddc55880" style="width: 100.0%; height: 100.0%;">산천동<br>1제곱킬로미터당 학원 수: 0.125<br>제곱미터당 가격(만원): 0.3561788372794101</div>`)[0];
+                popup_da67d5d5ad456c97263eb4d573149841.setContent(html_8f756c360ab8993c231c072fddc55880);
+            
+        
+
+        circle_1902786dbbdf721ac1ce1fffd9b7add7.bindPopup(popup_da67d5d5ad456c97263eb4d573149841)
+        ;
+
+        
+    
+    
+            var circle_6939123f1937cb6198f282ac30826da6 = L.circle(
+                [37.509475, 126.89595],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.026041666666666675, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_4cd96a19791bbce2e11302898053815a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f000708a33143b16e189e06878afe95b = $(`<div id="html_f000708a33143b16e189e06878afe95b" style="width: 100.0%; height: 100.0%;">도림동<br>1제곱킬로미터당 학원 수: 0.026041666666666675<br>제곱미터당 가격(만원): 0.2654216491843744</div>`)[0];
+                popup_4cd96a19791bbce2e11302898053815a.setContent(html_f000708a33143b16e189e06878afe95b);
+            
+        
+
+        circle_6939123f1937cb6198f282ac30826da6.bindPopup(popup_4cd96a19791bbce2e11302898053815a)
+        ;
+
+        
+    
+    
+            var circle_fc86aadb294b2f22c67110fdb5ee17fa = L.circle(
+                [37.5465421, 127.0713152],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.020833333333333336, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_364594759b3b06563c964c2542507805 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9381121acf1a61ba84daf3b6a16d622 = $(`<div id="html_a9381121acf1a61ba84daf3b6a16d622" style="width: 100.0%; height: 100.0%;">화양동<br>1제곱킬로미터당 학원 수: 0.020833333333333336<br>제곱미터당 가격(만원): 0.23158005395419307</div>`)[0];
+                popup_364594759b3b06563c964c2542507805.setContent(html_a9381121acf1a61ba84daf3b6a16d622);
+            
+        
+
+        circle_fc86aadb294b2f22c67110fdb5ee17fa.bindPopup(popup_364594759b3b06563c964c2542507805)
+        ;
+
+        
+    
+    
+            var circle_b491190cb2efce7f03c3bd3a7cbd92a5 = L.circle(
+                [37.606099, 127.046963],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.046875, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_634b5dc5349bb77b049193bc390e4f38 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_533a5f62216cb9480cdd4e1ba587369b = $(`<div id="html_533a5f62216cb9480cdd4e1ba587369b" style="width: 100.0%; height: 100.0%;">상월곡동<br>1제곱킬로미터당 학원 수: 0.046875<br>제곱미터당 가격(만원): 0.14309455897471574</div>`)[0];
+                popup_634b5dc5349bb77b049193bc390e4f38.setContent(html_533a5f62216cb9480cdd4e1ba587369b);
+            
+        
+
+        circle_b491190cb2efce7f03c3bd3a7cbd92a5.bindPopup(popup_634b5dc5349bb77b049193bc390e4f38)
+        ;
+
+        
+    
+    
+            var circle_c6cb3678353801a13ae394e96724de69 = L.circle(
+                [37.53635, 126.89605],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.005208333333333334, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_2da8f1e39d1d46e6215fdfa39797b7b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d53cf690aa5733e0eebf58c574d57e05 = $(`<div id="html_d53cf690aa5733e0eebf58c574d57e05" style="width: 100.0%; height: 100.0%;">양평동4가<br>1제곱킬로미터당 학원 수: 0.005208333333333334<br>제곱미터당 가격(만원): 0.15427382139461537</div>`)[0];
+                popup_2da8f1e39d1d46e6215fdfa39797b7b6.setContent(html_d53cf690aa5733e0eebf58c574d57e05);
+            
+        
+
+        circle_c6cb3678353801a13ae394e96724de69.bindPopup(popup_2da8f1e39d1d46e6215fdfa39797b7b6)
+        ;
+
+        
+    
+    
+            var circle_ba13f429f550bb4ac229c0c88bf158d3 = L.circle(
+                [37.5424569, 126.9618498],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.020833333333333336, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_a57186ec7f7a723039396c9b0ffe985c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e04134f32812bcc982c4fd96893aad39 = $(`<div id="html_e04134f32812bcc982c4fd96893aad39" style="width: 100.0%; height: 100.0%;">효창동<br>1제곱킬로미터당 학원 수: 0.020833333333333336<br>제곱미터당 가격(만원): 0.3460195255432136</div>`)[0];
+                popup_a57186ec7f7a723039396c9b0ffe985c.setContent(html_e04134f32812bcc982c4fd96893aad39);
+            
+        
+
+        circle_ba13f429f550bb4ac229c0c88bf158d3.bindPopup(popup_a57186ec7f7a723039396c9b0ffe985c)
+        ;
+
+        
+    
+    
+            var circle_3253f6b387a7458a072e9b4c8726fbe7 = L.circle(
+                [37.5486375, 126.9781344],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.0625, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_9c1fc861e6af436e36b785ea19461ab1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff621af660b72578d12295e0c47fff4d = $(`<div id="html_ff621af660b72578d12295e0c47fff4d" style="width: 100.0%; height: 100.0%;">후암동<br>1제곱킬로미터당 학원 수: 0.0625<br>제곱미터당 가격(만원): 0.3027513265437343</div>`)[0];
+                popup_9c1fc861e6af436e36b785ea19461ab1.setContent(html_ff621af660b72578d12295e0c47fff4d);
+            
+        
+
+        circle_3253f6b387a7458a072e9b4c8726fbe7.bindPopup(popup_9c1fc861e6af436e36b785ea19461ab1)
+        ;
+
+        
+    
+    
+            var circle_3a0cf06f67d51f1cd7dd487fef8ac55a = L.circle(
+                [37.5232, 126.8886],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.020833333333333336, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_641263a447902d49c6ae3b986e688180 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f8c66da5abbbd6bb8ff588f7f0127c2 = $(`<div id="html_7f8c66da5abbbd6bb8ff588f7f0127c2" style="width: 100.0%; height: 100.0%;">양평동1가<br>1제곱킬로미터당 학원 수: 0.020833333333333336<br>제곱미터당 가격(만원): 0.2650866900107444</div>`)[0];
+                popup_641263a447902d49c6ae3b986e688180.setContent(html_7f8c66da5abbbd6bb8ff588f7f0127c2);
+            
+        
+
+        circle_3a0cf06f67d51f1cd7dd487fef8ac55a.bindPopup(popup_641263a447902d49c6ae3b986e688180)
+        ;
+
+        
+    
+    
+            var circle_adce122caddbb307a01af61b95863902 = L.circle(
+                [37.5516561, 126.9118888],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.026041666666666675, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_8e71ab94f721eb71958b3395c1207b05 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7bf081ccb30525c1b435758ac91d45da = $(`<div id="html_7bf081ccb30525c1b435758ac91d45da" style="width: 100.0%; height: 100.0%;">합정동<br>1제곱킬로미터당 학원 수: 0.026041666666666675<br>제곱미터당 가격(만원): 0.29896541785788827</div>`)[0];
+                popup_8e71ab94f721eb71958b3395c1207b05.setContent(html_7bf081ccb30525c1b435758ac91d45da);
+            
+        
+
+        circle_adce122caddbb307a01af61b95863902.bindPopup(popup_8e71ab94f721eb71958b3395c1207b05)
+        ;
+
+        
+    
+    
+            var circle_75326ce3affd589e8fcfb53ec626fbdf = L.circle(
+                [37.53455, 127.0005],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.005208333333333334, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_df6de6db58d7fa50e622315036deda67 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e11dfd37da6be5c2a6cc4393f803cb6 = $(`<div id="html_0e11dfd37da6be5c2a6cc4393f803cb6" style="width: 100.0%; height: 100.0%;">한남동<br>1제곱킬로미터당 학원 수: 0.005208333333333334<br>제곱미터당 가격(만원): 0.6134701899218514</div>`)[0];
+                popup_df6de6db58d7fa50e622315036deda67.setContent(html_0e11dfd37da6be5c2a6cc4393f803cb6);
+            
+        
+
+        circle_75326ce3affd589e8fcfb53ec626fbdf.bindPopup(popup_df6de6db58d7fa50e622315036deda67)
+        ;
+
+        
+    
+    
+            var circle_8564b17d2f91a58c7559007b84f803d2 = L.circle(
+                [37.54295, 126.98405],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.01041666666666667, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_3001aab47f868d5c68bff9237d6ba938 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_07d2b2b125fa7ba332efb58e4c28d627 = $(`<div id="html_07d2b2b125fa7ba332efb58e4c28d627" style="width: 100.0%; height: 100.0%;">용산동2가<br>1제곱킬로미터당 학원 수: 0.01041666666666667<br>제곱미터당 가격(만원): 0.13731651322959904</div>`)[0];
+                popup_3001aab47f868d5c68bff9237d6ba938.setContent(html_07d2b2b125fa7ba332efb58e4c28d627);
+            
+        
+
+        circle_8564b17d2f91a58c7559007b84f803d2.bindPopup(popup_3001aab47f868d5c68bff9237d6ba938)
+        ;
+
+        
+    
+    
+            var circle_861be6df95c46b438918cdf6854e634e = L.circle(
+                [37.5678878, 126.9594044],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.026041666666666675, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_3d752fbfdd0d8d19321d026812290988 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fbcdb5da503cc7a84e4bd12b40e2ddf3 = $(`<div id="html_fbcdb5da503cc7a84e4bd12b40e2ddf3" style="width: 100.0%; height: 100.0%;">천연동<br>1제곱킬로미터당 학원 수: 0.026041666666666675<br>제곱미터당 가격(만원): 0.4155168548879562</div>`)[0];
+                popup_3d752fbfdd0d8d19321d026812290988.setContent(html_fbcdb5da503cc7a84e4bd12b40e2ddf3);
+            
+        
+
+        circle_861be6df95c46b438918cdf6854e634e.bindPopup(popup_3d752fbfdd0d8d19321d026812290988)
+        ;
+
+        
+    
+    
+            var circle_3a388fa06e2a7d4eb1549878ab78fb0e = L.circle(
+                [37.6786913, 127.0434369],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_31099fff0e7997e703b8aa87c65377ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1cc8d79b42dafe213a4db85390b6d499 = $(`<div id="html_1cc8d79b42dafe213a4db85390b6d499" style="width: 100.0%; height: 100.0%;">도봉동<br>1제곱킬로미터당 학원 수: 0.0<br>제곱미터당 가격(만원): 0.10249750713076547</div>`)[0];
+                popup_31099fff0e7997e703b8aa87c65377ce.setContent(html_1cc8d79b42dafe213a4db85390b6d499);
+            
+        
+
+        circle_3a388fa06e2a7d4eb1549878ab78fb0e.bindPopup(popup_31099fff0e7997e703b8aa87c65377ce)
+        ;
+
+        
+    
+    
+            var circle_9259c133a47b6d65124fb4379fbd31a3 = L.circle(
+                [37.5263257, 127.0001818],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.015625000000000003, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_fcdc2f1b894c0a9f9ccb3bdfd506375e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_970dcecb372a77f179caab5b68a83c1c = $(`<div id="html_970dcecb372a77f179caab5b68a83c1c" style="width: 100.0%; height: 100.0%;">보광동<br>1제곱킬로미터당 학원 수: 0.015625000000000003<br>제곱미터당 가격(만원): 0.4869837441736429</div>`)[0];
+                popup_fcdc2f1b894c0a9f9ccb3bdfd506375e.setContent(html_970dcecb372a77f179caab5b68a83c1c);
+            
+        
+
+        circle_9259c133a47b6d65124fb4379fbd31a3.bindPopup(popup_fcdc2f1b894c0a9f9ccb3bdfd506375e)
+        ;
+
+        
+    
+    
+            var circle_4d096b0df1a3ef25739bebd27a9a1ec7 = L.circle(
+                [37.6633, 127.002],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.026041666666666675, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_9872b68680b015a6166549da2f7900aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_57c2e321c89a2774cd2f631ba5528e38 = $(`<div id="html_57c2e321c89a2774cd2f631ba5528e38" style="width: 100.0%; height: 100.0%;">우이동<br>1제곱킬로미터당 학원 수: 0.026041666666666675<br>제곱미터당 가격(만원): 0.09330287781462329</div>`)[0];
+                popup_9872b68680b015a6166549da2f7900aa.setContent(html_57c2e321c89a2774cd2f631ba5528e38);
+            
+        
+
+        circle_4d096b0df1a3ef25739bebd27a9a1ec7.bindPopup(popup_9872b68680b015a6166549da2f7900aa)
+        ;
+
+        
+    
+    
+            var circle_15a62e8f4c8c136d206a29d35dc71b72 = L.circle(
+                [37.5376406, 126.95966],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_5ab4dcd3e68427e8afc29535a56d088c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ddab02f416802892f0da56b299b5253c = $(`<div id="html_ddab02f416802892f0da56b299b5253c" style="width: 100.0%; height: 100.0%;">용문동<br>1제곱킬로미터당 학원 수: 0.0<br>제곱미터당 가격(만원): 0.3539178628574079</div>`)[0];
+                popup_5ab4dcd3e68427e8afc29535a56d088c.setContent(html_ddab02f416802892f0da56b299b5253c);
+            
+        
+
+        circle_15a62e8f4c8c136d206a29d35dc71b72.bindPopup(popup_5ab4dcd3e68427e8afc29535a56d088c)
+        ;
+
+        
+    
+    
+            var circle_046496a9fd5b37f3886ceedd1b6100c5 = L.circle(
+                [37.537, 126.969088],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.005208333333333334, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_a5c998ebab9849c4721258dee220154c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_85282f44aa3142e41b02fb750838bcad = $(`<div id="html_85282f44aa3142e41b02fb750838bcad" style="width: 100.0%; height: 100.0%;">문배동<br>1제곱킬로미터당 학원 수: 0.005208333333333334<br>제곱미터당 가격(만원): 0.30429701087586675</div>`)[0];
+                popup_a5c998ebab9849c4721258dee220154c.setContent(html_85282f44aa3142e41b02fb750838bcad);
+            
+        
+
+        circle_046496a9fd5b37f3886ceedd1b6100c5.bindPopup(popup_a5c998ebab9849c4721258dee220154c)
+        ;
+
+        
+    
+    
+            var circle_12b50f2478a7e8fb4e39876ccdf2287d = L.circle(
+                [37.5760032, 126.958148],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.03125, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_b49247dd0e7c5957b2b8aa7a96a71f8e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f81f2bbd83b52cd9bfb281bbd70c1ee = $(`<div id="html_7f81f2bbd83b52cd9bfb281bbd70c1ee" style="width: 100.0%; height: 100.0%;">무악동<br>1제곱킬로미터당 학원 수: 0.03125<br>제곱미터당 가격(만원): 0.3594245916718843</div>`)[0];
+                popup_b49247dd0e7c5957b2b8aa7a96a71f8e.setContent(html_7f81f2bbd83b52cd9bfb281bbd70c1ee);
+            
+        
+
+        circle_12b50f2478a7e8fb4e39876ccdf2287d.bindPopup(popup_b49247dd0e7c5957b2b8aa7a96a71f8e)
+        ;
+
+        
+    
+    
+            var circle_9eecc59807bd5b37f91b05ba44a8901e = L.circle(
+                [37.520458, 126.994663],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.01041666666666667, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_465d89dfea17c5791f6b39126b30e17b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e5b73d3b7ad2097e2f2252c56367feb5 = $(`<div id="html_e5b73d3b7ad2097e2f2252c56367feb5" style="width: 100.0%; height: 100.0%;">서빙고동<br>1제곱킬로미터당 학원 수: 0.01041666666666667<br>제곱미터당 가격(만원): 0.6660830647218422</div>`)[0];
+                popup_465d89dfea17c5791f6b39126b30e17b.setContent(html_e5b73d3b7ad2097e2f2252c56367feb5);
+            
+        
+
+        circle_9eecc59807bd5b37f91b05ba44a8901e.bindPopup(popup_465d89dfea17c5791f6b39126b30e17b)
+        ;
+
+        
+    
+    
+            var circle_cbea2ad265c5d4bde1caa429b40c48b1 = L.circle(
+                [37.5778049, 127.0156274],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_17bce234d82447c353d047707ea814d6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9409f329bd780e7b69e7162344062d6 = $(`<div id="html_f9409f329bd780e7b69e7162344062d6" style="width: 100.0%; height: 100.0%;">숭인동<br>1제곱킬로미터당 학원 수: 0.0<br>제곱미터당 가격(만원): 0.13396273450362917</div>`)[0];
+                popup_17bce234d82447c353d047707ea814d6.setContent(html_f9409f329bd780e7b69e7162344062d6);
+            
+        
+
+        circle_cbea2ad265c5d4bde1caa429b40c48b1.bindPopup(popup_17bce234d82447c353d047707ea814d6)
+        ;
+
+        
+    
+    
+            var circle_6281dac892b9c27c33c53d92f3d8b206 = L.circle(
+                [37.5835192, 126.8936659],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.005208333333333334, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_3d81d3d88ebc19fe7067e5c8c241f8f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ba35e7b7099dfd3344f8eb347b98759 = $(`<div id="html_4ba35e7b7099dfd3344f8eb347b98759" style="width: 100.0%; height: 100.0%;">수색동<br>1제곱킬로미터당 학원 수: 0.005208333333333334<br>제곱미터당 가격(만원): 0.24816632587223142</div>`)[0];
+                popup_3d81d3d88ebc19fe7067e5c8c241f8f6.setContent(html_4ba35e7b7099dfd3344f8eb347b98759);
+            
+        
+
+        circle_6281dac892b9c27c33c53d92f3d8b206.bindPopup(popup_3d81d3d88ebc19fe7067e5c8c241f8f6)
+        ;
+
+        
+    
+    
+            var circle_533f2a3b97e47778707393d8c1bc4e11 = L.circle(
+                [37.570758, 127.016363],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_123ebef070875f445be5b9714f212297 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3acb9b11d1800ecb7676d9048d4e2fb3 = $(`<div id="html_3acb9b11d1800ecb7676d9048d4e2fb3" style="width: 100.0%; height: 100.0%;">창신동<br>1제곱킬로미터당 학원 수: 0.0<br>제곱미터당 가격(만원): 0.240031743823224</div>`)[0];
+                popup_123ebef070875f445be5b9714f212297.setContent(html_3acb9b11d1800ecb7676d9048d4e2fb3);
+            
+        
+
+        circle_533f2a3b97e47778707393d8c1bc4e11.bindPopup(popup_123ebef070875f445be5b9714f212297)
+        ;
+
+        
+    
+    
+            var circle_7b167a2feef88941a56216ff49f93d3d = L.circle(
+                [37.577008, 127.004338],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.005208333333333334, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_6d85da32e133d4ee882b150b61e9414c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_352b135f3f63aebdff8bc9be8ccf6b7f = $(`<div id="html_352b135f3f63aebdff8bc9be8ccf6b7f" style="width: 100.0%; height: 100.0%;">이화동<br>1제곱킬로미터당 학원 수: 0.005208333333333334<br>제곱미터당 가격(만원): 0.0</div>`)[0];
+                popup_6d85da32e133d4ee882b150b61e9414c.setContent(html_352b135f3f63aebdff8bc9be8ccf6b7f);
+            
+        
+
+        circle_7b167a2feef88941a56216ff49f93d3d.bindPopup(popup_6d85da32e133d4ee882b150b61e9414c)
+        ;
+
+        
+    
+    
+            var circle_287564e012d1916239ac6c05d7d8fd38 = L.circle(
+                [37.4889181, 127.104929],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_6fd1078bc64655c4b4b8af5a94ec521e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4528501b4dd658b32bccf9824a6c3b5a = $(`<div id="html_4528501b4dd658b32bccf9824a6c3b5a" style="width: 100.0%; height: 100.0%;">수서동<br>1제곱킬로미터당 학원 수: 0.0<br>제곱미터당 가격(만원): 0.6603212266786754</div>`)[0];
+                popup_6fd1078bc64655c4b4b8af5a94ec521e.setContent(html_4528501b4dd658b32bccf9824a6c3b5a);
+            
+        
+
+        circle_287564e012d1916239ac6c05d7d8fd38.bindPopup(popup_6fd1078bc64655c4b4b8af5a94ec521e)
+        ;
+
+        
+    
+    
+            var circle_928607812a290b8b86fb6d3f379bcf70 = L.circle(
+                [37.5673446, 127.0212812],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_a3b90b9bd7e2ec26b24091bf66140484 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0967441dbde68247a8f1368297ece15 = $(`<div id="html_a0967441dbde68247a8f1368297ece15" style="width: 100.0%; height: 100.0%;">황학동<br>1제곱킬로미터당 학원 수: 0.0<br>제곱미터당 가격(만원): 0.1766004345834135</div>`)[0];
+                popup_a3b90b9bd7e2ec26b24091bf66140484.setContent(html_a0967441dbde68247a8f1368297ece15);
+            
+        
+
+        circle_928607812a290b8b86fb6d3f379bcf70.bindPopup(popup_a3b90b9bd7e2ec26b24091bf66140484)
+        ;
+
+        
+    
+    
+            var circle_bfa9e25b07fcc020d457992da5a3d260 = L.circle(
+                [37.4825557, 126.8897489],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.005208333333333334, "stroke": true, "weight": 3}
+            ).addTo(map_79fd5d4cfe4b2672ed9b9dd34498b108);
+        
+    
+        var popup_e4988c24ab42a76ec1bab77cb22511b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_56b164d3b4a4a76d969821ef1666ac1e = $(`<div id="html_56b164d3b4a4a76d969821ef1666ac1e" style="width: 100.0%; height: 100.0%;">가리봉동<br>1제곱킬로미터당 학원 수: 0.005208333333333334<br>제곱미터당 가격(만원): 0.11636481691904552</div>`)[0];
+                popup_e4988c24ab42a76ec1bab77cb22511b3.setContent(html_56b164d3b4a4a76d969821ef1666ac1e);
+            
+        
+
+        circle_bfa9e25b07fcc020d457992da5a3d260.bindPopup(popup_e4988c24ab42a76ec1bab77cb22511b3)
+        ;
+
+        
+    
+</script>
+</html>

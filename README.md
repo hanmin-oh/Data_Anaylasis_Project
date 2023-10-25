@@ -7,7 +7,7 @@
 
 ## 1) 데이터 출처
 - 우선 집값의 경우 국토교통부 실거래가 공개시스템을 사용했습니다. http://rtdown.molit.go.kr/
-- 지하철의 경우 서울 교통 빅데이터 포탈을 사용했습니다. https://t-data.seoul.go.kr/category/dataviewfile.do?data_id=10054
+- 지하철의 경우 서울 교통 빅데이터 포탈을 사용했습니다. <br/> https://t-data.seoul.go.kr/category/dataviewfile.do?data_id=10054
 - 학원의 경우 공공데이터 포탈의 '소상공인시장진흥공단_상가(상권)정보'를 이용했습니다. https://www.data.go.kr/data/15083033/fileData.do
 - 학교 수의 경우 학교알리미의 공개용데이터를 이용했습니다. https://www.schoolinfo.go.kr/ng/go/pnnggo_a01_l2.do
 - 각각의 피쳐를 동별 면적으로 나누기 위해 

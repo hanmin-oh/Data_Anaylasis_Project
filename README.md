@@ -6,10 +6,10 @@
 - 1차는 기본적으로 면적(㎢)당 학원 수, 고등학교의 수, 지하철 역의 개수 등을 피쳐로 삼아 집값(면적(㎡)당 가격)을 타겟으로 기본적인 지도학습을 수행할 예정이다.
 
 ## 1) 데이터 출처
-- 우선 집값의 경우 국토교통부 실거래가 공개시스템을 사용했습니다. http://rtdown.molit.go.kr/
+- 우선 집값의 경우 국토교통부 실거래가 공개시스템을 사용했습니다. <br/> http://rtdown.molit.go.kr/
 - 지하철의 경우 서울 교통 빅데이터 포탈을 사용했습니다. <br/> https://t-data.seoul.go.kr/category/dataviewfile.do?data_id=10054
 - 학원의 경우 공공데이터 포탈의 '소상공인시장진흥공단_상가(상권)정보'를 이용했습니다. https://www.data.go.kr/data/15083033/fileData.do
-- 학교 수의 경우 학교알리미의 공개용데이터를 이용했습니다. https://www.schoolinfo.go.kr/ng/go/pnnggo_a01_l2.do
+- 학교 수의 경우 학교알리미의 공개용데이터를 이용했습니다.  <br/> https://www.schoolinfo.go.kr/ng/go/pnnggo_a01_l2.do
 - 각각의 피쳐를 동별 면적으로 나누기 위해 
 ## 2) 데이터 전처리
 - 집값을 타겟으로 하고 면적(㎢)당 학원 수, 고등학교의 수, 지하철 역의 개수 등을 피쳐로 삼기 위해 서울 열린데이터 광장에서 행정구역 면적을 다운받았습니다. https://data.seoul.go.kr/dataList/412/S/2/datasetView.do
